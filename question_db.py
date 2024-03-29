@@ -100,7 +100,7 @@ qb_culture = [
         "difficulty": "Easy",
         "question": "Who was the influential pop artist known for creating iconic artworks featuring Marilyn Monroe?",
         "choices": ["Jackson Pollock", "Andy Warhol", "Pablo Picasso", "Salvador Dalí"],
-        "answer": "Andy Warhol" 
+        "answer": "Andy Warhol"
     },
     {
         "difficulty": "Easy",
@@ -184,7 +184,7 @@ qb_culture = [
         "difficulty": "Easy",
         "question": "Which American poet wrote 'The Road Not Taken' and 'Stopping by Woods on a Snowy Evening'?",
         "choices": ["Emily Dickinson", "Langston Hughes", "Robert Frost", "Walt Whitman"],
-        "answer": "Robert Frost" 
+        "answer": "Robert Frost"
     },
     {
         "difficulty": "Easy",
@@ -346,7 +346,7 @@ qb_culture = [
         "difficulty": "Medium",
         "question": "Which ancient Greek philosopher is known for his teachings on ethics and morality, and was the student of Plato?",
         "choices": ["Socrates", "Aristotle", "Pythagoras", "Sophocles"],
-        "answer": " Socrates" 
+        "answer": "Socrates"
     },
     {
         "difficulty": "Medium",
@@ -448,7 +448,7 @@ qb_culture = [
         "difficulty": "Medium",
         "question": "Who directed the famous film 'The Godfather'?",
         "choices": ["Steven Spielberg", "Martin Scorsese", "Francis Ford Coppola", "Alfred Hitchcock"],
-        "answer": "Francis Ford Coppola" 
+        "answer": "Francis Ford Coppola"
     },
     {
         "difficulty": "Medium",
@@ -478,7 +478,7 @@ qb_culture = [
         "difficulty": "Medium",
         "question": "Who wrote the play 'The Crucible' which is based on the Salem witch trials and serves as an allegory for McCarthyism?",
         "choices": ["Tennessee Williams", "Arthur Miller", "Eugene O'Neill", "Thornton Wilder"],
-        "answer": "Arthur Miller" 
+        "answer": "Arthur Miller"
     },
     {
         "difficulty": "Hard",
@@ -490,7 +490,7 @@ qb_culture = [
         "difficulty": "Hard",
         "question": "Who is the author of the famous novel 'The Picture of Dorian Gray' which explores themes of vanity, morality, and the pursuit of beauty?",
         "choices": ["Oscar Wilde", "Charles Dickens", "H.G. Wells", "Bram Stoker"],
-        "answer": "Oscar Wilde" 
+        "answer": "Oscar Wilde"
     },  
     {
         "difficulty": "Hard",
@@ -538,7 +538,7 @@ qb_culture = [
         "difficulty": "Hard",
         "question": "Which ballet, composed by Pyotr Ilyich Tchaikovsky, features characters like Odette, Odile, and Prince Siegfried?",
         "choices": ["The Nutcracker", "Swan Lake", "Sleeping Beauty", "Giselle"],
-        "answer": "Swan Lake" 
+        "answer": "Swan Lake"
     }, 
     {
         "difficulty": "Hard",
@@ -658,7 +658,7 @@ qb_culture = [
         "difficulty": "Hard",
         "question": "Which musical genre originated in Jamaica and features a prominent beat and bass line?",
         "choices": ["Reggae", "Salsa", "Flamenco", "Jazz"],
-        "answer": "Reggae" 
+        "answer": "Reggae"
     }, 
     {
         "difficulty": "Hard",
@@ -706,7 +706,7 @@ qb_culture = [
         "difficulty": "Hard",
         "question": "Which famous novel by Jane Austen explores themes of love, class, and social status in early 19th-century England?",
         "choices": ["Wuthering Heights", "Pride and Prejudice", "Jane Eyre", "Sense and Sensibility"],
-        "answer": "Pride and Prejudice" 
+        "answer": "Pride and Prejudice"
     }, 
     {
         "difficulty": "Hard",
@@ -853,7 +853,7 @@ qb_geography = [
         "difficulty": "Easy",
         "question": "Which of the following is the highest peak in the Philippines?",
         "choices": ["Mount Mayon", "Mount Pinatubo", "Mount Apo", "Mount Taal"],
-        "answer": "Mount Apo" 
+        "answer": "Mount Apo"
     },
     {
         "difficulty": "Easy",
@@ -907,7 +907,7 @@ qb_geography = [
         "difficulty": "Easy",
         "question": "Which of the following bodies of water surrounds the majority of the Philippine archipelago?",
         "choices": ["South China Sea", "Pacific Ocean", "Celebes Sea", "Philippine Sea"],
-        "answer": "South China Sea" 
+        "answer": "South China Sea"
     }, 
     {
         "difficulty": "Easy",
@@ -943,7 +943,7 @@ qb_geography = [
         "difficulty": "Easy",
         "question": "What is the capital city of The Philippines?",
         "choices": ["Buenos Aires", "Santiago", "Lima", "Manila"],
-        "answer": "Manila" 
+        "answer": "Manila"
     },
     {
         "difficulty": "Easy",
@@ -967,13 +967,13 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "What is the name of the largest lake in the Philippines?",
         "choices": ["Laguna de Bay", "Lake Lanao", "Lake Taal", "Lake Mainit"],
-        "answer": "Laguna de Bay" 
+        "answer": "Laguna de Bay"
     },
     {
         "difficulty": "Medium",
         "question": "Which of the following is the largest island in Japan?",
         "choices": ["Shikoku", "Kyushu", "Honshu", "Hokkaido"],
-        "answer": "Honshu" 
+        "answer": "Honshu"
     },
     {
         "difficulty": "Medium",
@@ -997,7 +997,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which of the following is the highest mountain in Japan?",
         "choices": ["Mount Fuji", "Mount Aso", "Mount Tateyama", "Mount Ontake"],
-        "answer": "Mount Fuji" 
+        "answer": "Mount Fuji"
     },
     {
         "difficulty": "Medium",
@@ -1045,7 +1045,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which of the following is the longest river in Japan?",
         "choices": ["Shinano River", "Tone River", "Ishikari River", "Kiso River"],
-        "answer": "Shinano River" 
+        "answer": "Shinano River"
     },
     {
         "difficulty": "Medium",
@@ -1075,7 +1075,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which strait separates Hokkaido from Russia?",
         "choices": ["Tsugaru Strait", "La Pérouse Strait", "Soya Strait", "Tatar Strait"],
-        "answer": "La Pérouse Strait" 
+        "answer": "La Pérouse Strait"
     },
     {
         "difficulty": "Medium",
@@ -1093,7 +1093,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which of the following is the southernmost prefecture of Japan?",
         "choices": ["Okinawa", "Kagoshima", "Kumamoto", "Miyazaki"],
-        "answer": "Okinawa" 
+        "answer": "Okinawa"
     },
     {
         "difficulty": "Medium",
@@ -1111,7 +1111,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which of the following cities is not located on the island of Honshu?",
         "choices": ["Tokyo", "Osaka", "Fukuoka", "Sapporo"],
-        "answer": "Sapporo" 
+        "answer": "Sapporo"
     },
     {
         "difficulty": "Medium",
@@ -1123,7 +1123,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which of the following is the highest peak in Japan's Northern Alps?",
         "choices": ["Mount Tateyama", "Mount Hotaka", "Mount Yari", "Mount Shirouma"],
-        "answer": "Mount Yari" 
+        "answer": "Mount Yari"
     },
     {
         "difficulty": "Medium",
@@ -1177,7 +1177,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which strait separates Shikoku from Honshu?",
         "choices": ["Kanmon Strait", "Naruto Strait", "Seto Inland Sea", "Akashi Strait"],
-        "answer": "Naruto Strait" 
+        "answer": "Naruto Strait"
     },
     {
         "difficulty": "Medium",
@@ -1189,7 +1189,7 @@ qb_geography = [
         "difficulty": "Medium",
         "question": "Which mountain is considered the highest peak in South Korea?",
         "choices": ["Mount Jiri", "Mount Halla", "Mount Seorak", "Mount Baekdu"],
-        "answer": "Mount Halla" 
+        "answer": "Mount Halla"
     },
     {
         "difficulty": "Medium",
@@ -1423,7 +1423,7 @@ qb_geography = [
         "difficulty": "Hard",
         "question": "Which river forms a natural boundary between North Korea and China?",
         "choices": ["Han River", "Yalu River", "Taedong River", "Nakdong River"],
-        "answer": "Yalu River" 
+        "answer": "Yalu River"
     },
     {
         "difficulty": "Hard",
@@ -1534,7 +1534,7 @@ qb_history = [
         "difficulty": "Easy",
         "question": "What ancient civilization is known for its pyramids, pharaohs, and hieroglyphics?",
         "choices": ["Greek", "Roman", "Egyptian", "Mesopotamian"],
-        "answer": "Egyptian" 
+        "answer": "Egyptian"
     },
     {
         "difficulty": "Easy",
@@ -1689,14 +1689,14 @@ qb_history = [
     {
         "difficulty": "Medium",
         "question": "Which ancient civilization built the city of Machu Picchu?",
-        "choices": ["The Aztecs", " The Incas", "The Mayans", "The Egyptians"],
-        "answer": "The Incas" 
+        "choices": ["The Aztecs", "The Incas", "The Mayans", "The Egyptians"],
+        "answer": "The Incas"
     },
     {
         "difficulty": "Medium",
         "question": "Which famous naval battle in 1588 saw the defeat of the Spanish Armada by the English fleet?",
         "choices": ["Battle of Trafalgar", "Battle of Lepanto", "Battle of Gravelines", "Battle of Jutland"],
-        "answer": "Battle of Gravelines" 
+        "answer": "Battle of Gravelines"
     },
     {
         "difficulty": "Medium",
@@ -1726,7 +1726,7 @@ qb_history = [
         "difficulty": "Medium",
         "question": "In what year did Ferdinand Marcos declare martial law in the Philippines?",
         "choices": ["1965", "1972", "1981", "1986"],
-        "answer": "1972" 
+        "answer": "1972"
     },
     {
         "difficulty": "Medium",
@@ -1816,7 +1816,7 @@ qb_history = [
         "difficulty": "Medium",
         "question": "What year did the Berlin Wall fall, effectively marking the end of the Cold War?",
         "choices": ["1985", "1987", "1989", "1991"],
-        "answer": "1989" 
+        "answer": "1989"
     },
     {
         "difficulty": "Medium",
@@ -1846,7 +1846,7 @@ qb_history = [
         "difficulty": "Medium",
         "question": "Which ancient civilization built the Great Pyramids of Giza?",
         "choices": ["Ancient Greece", "Ancient Rome", "Ancient Egypt", "Ancient Mesopotamia"],
-        "answer": "Ancient Egypt" 
+        "answer": "Ancient Egypt"
     },
     {
         "difficulty": "Medium",
@@ -1918,7 +1918,7 @@ qb_history = [
         "difficulty": "Medium",
         "question": "Which city was the capital of the Byzantine Empire?",
         "choices": ["Constantinople", "Athens", "Rome", "Alexandria"],
-        "answer": "Constantinople" 
+        "answer": "Constantinople"
     },
     {
         "difficulty": "Medium",
@@ -1960,7 +1960,7 @@ qb_history = [
         "difficulty": "Hard",
         "question": "Who was the first pharaoh of ancient Egypt?",
         "choices": ["Cleopatra", "Tutankhamun", "Ramses II", "Menes"],
-        "answer": "Menes" 
+        "answer": "Menes"
     },
     {
         "difficulty": "Hard",
@@ -2044,7 +2044,7 @@ qb_history = [
         "difficulty": "Hard",
         "question": "Which famous conqueror created one of the largest empires in history, stretching from Greece to Egypt and into present-day India?",
         "choices": ["Alexander the Great", "Genghis Khan", "Julius Caesar", "Napoleon Bonaparte"],
-        "answer": "Alexander the Great" 
+        "answer": "Alexander the Great"
     },
     {
         "difficulty": "Hard",
@@ -2098,7 +2098,7 @@ qb_history = [
         "difficulty": "Hard",
         "question": "Which war was fought between the Northern and Southern states of the United States from 1861 to 1865?",
         "choices": ["The Revolutionary War", "The War of 1812", "The Civil War", "The Vietnam War"],
-        "answer": "The Civil War" 
+        "answer": "The Civil War"
     },
     {
         "difficulty": "Hard",
@@ -2110,7 +2110,7 @@ qb_history = [
         "difficulty": "Hard",
         "question": "The People Power Revolution, a series of nonviolent protests in the Philippines, led to the ousting of which authoritarian leader?",
         "choices": ["Ferdinand Marcos", "Park Chung-hee", "Suharto", "Augusto Pinochet"],
-        "answer": "Ferdinand Marcos" 
+        "answer": "Ferdinand Marcos"
     },
     {
         "difficulty": "Hard",
@@ -2365,7 +2365,7 @@ qb_technology = [
         "difficulty": "Easy",
         "question": "Who is credited with inventing the World Wide Web?",
         "choices": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
-        "answer": "Tim Berners-Lee" 
+        "answer": "Tim Berners-Lee"
     },
     {
         "difficulty": "Easy",
@@ -2455,7 +2455,7 @@ qb_technology = [
         "difficulty": "Medium",
         "question": "What programming language is commonly used for developing Android applications?",
         "choices": ["Java", "Python", "C#", "Swift"],
-        "answer": "Java" 
+        "answer": "Java"
     },
     {
         "difficulty": "Medium",
@@ -2629,7 +2629,7 @@ qb_technology = [
         "difficulty": "Medium",
         "question": "What was the name of the first widely-used web search engine?",
         "choices": ["Google", "Yahoo", "AltaVista", "Bing"],
-        "answer": "AltaVista" 
+        "answer": "AltaVista"
     },
     {
         "difficulty": "Medium",
@@ -2647,7 +2647,7 @@ qb_technology = [
         "difficulty": "Medium",
         "question": "Which company developed the first commercially successful personal computer?",
         "choices": ["Apple", "IBM", "Microsoft", "Hewlett-Packard"],
-        "answer": "IBM" 
+        "answer": "IBM"
     }, 
     {
         "difficulty": "Hard",
@@ -2724,7 +2724,7 @@ qb_technology = [
     {
         "difficulty": "Hard",
         "question": "Which of the following is a common vulnerability in IoT (Internet of Things) devices?",
-        "choices": ["Buffer overflow", " SQL injection", "Cross-site scripting", "Denial-of-Service (DoS) attacks"],
+        "choices": ["Buffer overflow", "SQL injection", "Cross-site scripting", "Denial-of-Service (DoS) attacks"],
         "answer": "Denial-of-Service (DoS) attacks"
     },
     {

@@ -24,7 +24,7 @@ class TestSimulator(tk.Frame):
         self.correct_ans = 0
         self.selected_answer = tk.StringVar()
         # Welcome logo
-        img = Image.open("C:/Users/joash/Desktop/01 CPRO Winter 2024/01 CPRO Git Repo/cpro-term1/01 Python/01 Lec/Project/logo.png")
+        img = Image.open("./images/logo.png")
         self.image = img.resize((250, 300))
         self.python_image = ImageTk.PhotoImage(self.image)
         self.tg_logo = tk.Label(root, image=self.python_image, bg="white")
@@ -57,10 +57,10 @@ class TestSimulator(tk.Frame):
         self.num_questions_dropdown.current(0)
         self.num_questions_dropdown.pack()
         # Initialize Start button
-        # style = ttk.Style()
         self.start_button = ttk.Button(root, text="Start Test", command=self.start_test)
         self.start_button.pack(padx=0, pady=25)
-        # style.configure("start.button", font=("Verdana", 10))
+        self.start_button.style = ttk.Style()
+        self.start_button.style.configure("TButton", font=("Helvetica", 14), background="white")
         # Questions, choices, and buttons
         self.q_number_label = tk.Label(root, text="", font=("Helvetica 24 bold"), bg="white")
         self.q_number_label.pack()
@@ -115,13 +115,14 @@ class TestSimulator(tk.Frame):
             if qb["difficulty"] == self.difficulty:
                 self.sel_questions.append(qb)
         # Update display (category logo, bg color)
-        img = Image.open(f"C:/Users/joash/Desktop/01 CPRO Winter 2024/01 CPRO Git Repo/cpro-term1/01 Python/01 Lec/Project/logo_{self.fg_col}.png")
+        img = Image.open(f"./images/logo_{self.fg_col}.png")
         self.image = img.resize((250, 300))
         self.python_image = ImageTk.PhotoImage(self.image)
         self.tg_logo.config(image=self.python_image, bg=self.bg_hex)
         self.root.configure(bg=self.bg_hex)
         self.q_number_label.config(bg=self.bg_hex, fg=self.fg_col)
         self.question_label.config(bg=self.bg_hex, fg=self.fg_col)
+        self.start_button.style.configure("TButton", background=self.bg_hex)
         # Show questions
         self.show_question()
 
@@ -183,11 +184,12 @@ class TestSimulator(tk.Frame):
 
     def show_score(self):
         # Update display (category logo, bg color)
-        img = Image.open(f"C:/Users/joash/Desktop/01 CPRO Winter 2024/01 CPRO Git Repo/cpro-term1/01 Python/01 Lec/Project/logo.png")
+        img = Image.open(f"./images/logo.png")
         self.image = img.resize((250, 300))
         self.python_image = ImageTk.PhotoImage(self.image)
         self.tg_logo.config(image=self.python_image, bg="white")
         self.root.configure(bg="white")
+        self.start_button.style.configure("TButton", background="white")
         # Test and score labels
         self.test_label = tk.Label(self.root, text=f"Test taken: {self.category} ({self.difficulty})", font=("Helvetica 21"), bg="white", fg="black")
         self.test_label.pack()
