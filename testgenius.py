@@ -1,15 +1,21 @@
 import tkinter as tk
+import random
+import question_db
 from tkinter import ttk
 from tkinter.messagebox import showinfo, showerror
 from PIL import ImageTk, Image
-import random
-import question_db
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
 
 
 class TestSimulator(tk.Frame):
     def __init__(self, root, question_database):
         super().__init__()  # Call init from superclass
         self.root = root
+        self.root.title("TestGenius: Your Test Simulator")
+        self.root.geometry("600x850")
+        self.root.configure(bg="white")
+        # self.root.resizable(False, False)
         self.question_db = question_database
         self.category_var = tk.StringVar()
         self.difficulty_var = tk.StringVar()
@@ -24,10 +30,6 @@ class TestSimulator(tk.Frame):
         self.tg_logo = tk.Label(root, image=self.python_image, bg="white")
         self.tg_logo.pack(padx=0, pady=20)
         # Welcome message
-        # #0F9D58 Green
-        # #4285F4 Blue
-        # #DB4437 Red
-        # #F4B400 Yellow
         self.welcome_label = tk.Label(root, text="Welcome to TestGenius:\nYour Test Simulator", font=("Helvetica 25 bold"), bg="white", fg="#666666")
         self.welcome_label.pack()
         self.authors_label = tk.Label(root, text="by Joash Daligcon, Aron Limos, and Lance Mirano\n", font=("Helvetica 10"), bg="white", fg="#838383")
@@ -63,7 +65,7 @@ class TestSimulator(tk.Frame):
         self.q_number_label = tk.Label(root, text="", font=("Helvetica 24 bold"), bg="white")
         self.q_number_label.pack()
         self.question_label = tk.Label(root, text="", wraplength=550, font=("Helvetica 20"), bg="white")
-        self.question_label.pack()
+        self.question_label.pack(padx=0, pady=5)
         self.choice_buttons = []
         self.submit_button = ttk.Button(root, text="Submit Answer", command=self.submit_answer)
 
@@ -88,20 +90,20 @@ class TestSimulator(tk.Frame):
         # Prepare questions from category
         match (self.category):
             case "Culture":
-                self.question_bank = self.question_db.qb_cul
-                self.bg_hex = "#DB4437"
+                self.question_bank = self.question_db.qb_culture
+                self.bg_hex = "#DB4437" # Red
                 self.fg_col = "white"
             case "Geography":
-                self.question_bank = self.question_db.qb_geo
-                self.bg_hex = "#0F9D58"
+                self.question_bank = self.question_db.qb_geography
+                self.bg_hex = "#0F9D58" # Green
                 self.fg_col = "white"
             case "History":
-                self.question_bank = self.question_db.qb_his
-                self.bg_hex = "#F4B400"
+                self.question_bank = self.question_db.qb_history
+                self.bg_hex = "#F4B400" # Yellow
                 self.fg_col = "black"
             case "Technology":
-                self.question_bank = self.question_db.qb_tech
-                self.bg_hex = "#4285F4"
+                self.question_bank = self.question_db.qb_technology
+                self.bg_hex = "#4285F4" # Blue
                 self.fg_col = "black"
             case _:
                 pass
@@ -126,7 +128,7 @@ class TestSimulator(tk.Frame):
     def show_question(self):
         # Update question label to current question
         self.q_number_label.config(text=f"{self.category} ({self.difficulty})\nQuestion {self.current_question_idx + 1} of {self.num_questions}")
-        self.question_label.config(text="\n" + self.sel_questions[self.current_question_idx]["question"] + "\n")
+        self.question_label.config(text=self.sel_questions[self.current_question_idx]["question"])
         # Clear radio buttons
         for radio_button in self.choice_buttons:
             radio_button.destroy()
@@ -135,15 +137,15 @@ class TestSimulator(tk.Frame):
         random.shuffle(self.choices)
         # Create radio buttons for choices
         style=ttk.Style()
-        style.configure("TRadiobutton", background=self.bg_hex, font=("Helvetica 15"), foreground=self.fg_col)
+        style.configure("TRadiobutton", background=self.bg_hex, font=("Helvetica 15"), foreground=self.fg_col, wraplength=480, width=45)
         for choice in self.choices:
             radio_button = ttk.Radiobutton(self.root, text=choice, value=choice, variable=self.selected_answer, style="TRadiobutton")
-            radio_button.pack(anchor=tk.N)
+            radio_button.pack(anchor=tk.N, padx=0, pady=5)
             self.choice_buttons.append(radio_button) # Store then destroy later
         # Set radio button to none
         self.selected_answer.set(None)
         # Show submit button
-        self.submit_button.pack(padx=0, pady=25)
+        self.submit_button.pack(padx=0, pady=10)
 
     def submit_answer(self):
         user_answer = self.selected_answer.get()
@@ -157,7 +159,7 @@ class TestSimulator(tk.Frame):
         else:
             showerror(
                 title = "Result",
-                message = f"Incorrect! The correct answer is: {correct_answer}."
+                message = f"Incorrect! The correct answer is: {correct_answer}"
             )
         # Go to next question
         self.current_question_idx += 1
@@ -180,22 +182,53 @@ class TestSimulator(tk.Frame):
         self.submit_button.destroy()
 
     def show_score(self):
-        self.test_label = tk.Label(self.root, text=f"Test taken: {self.category} ({self.difficulty})", font=("Helvetica 21"), bg="white")
+        # Update display (category logo, bg color)
+        img = Image.open(f"C:/Users/joash/Desktop/01 CPRO Winter 2024/01 CPRO Git Repo/cpro-term1/01 Python/01 Lec/Project/logo.png")
+        self.image = img.resize((250, 300))
+        self.python_image = ImageTk.PhotoImage(self.image)
+        self.tg_logo.config(image=self.python_image, bg="white")
+        self.root.configure(bg="white")
+        # Test and score labels
+        self.test_label = tk.Label(self.root, text=f"Test taken: {self.category} ({self.difficulty})", font=("Helvetica 21"), bg="white", fg="black")
         self.test_label.pack()
-        self.score_label = tk.Label(self.root, text="Your score is:", font=("Helvetica 20"), bg="white")
+        self.score_label = tk.Label(self.root, text="Your score is:", font=("Helvetica 20"), bg="white", fg="black")
         self.score_label.pack()
         # Calculate score
         score_prcnt = 100 * (self.correct_ans / self.num_questions)
-        self.score_prcnt_label = tk.Label(self.root, text=f"{score_prcnt:.2f}%", font=("Helvetica 24 bold"), bg="white")
-        self.score_prcnt_label.pack()
         score_string = f"{str(self.correct_ans)} out of {str(self.num_questions)}"
-        self.score_count = tk.Label(self.root, text=score_string, font=("Helvetica 21"), bg="white")
+        self.score_count = tk.Label(self.root, text=score_string, font=("Helvetica 21 bold"), bg="white", fg="black")
         self.score_count.pack()
+        self.score_prcnt_label = tk.Label(self.root, text=f"{score_prcnt:0.2f}%", font=("Helvetica 24 bold"), bg="white", fg="black")
+        self.score_prcnt_label.pack()
+        # Create pie chart frame
+        self.pie_frame = tk.Frame(self.root)
+        self.pie_frame.pack()
+        # Prepare pie chart
+        fig = Figure(figsize=(5, 3))   # Create figure object from matplotlib
+        ax = fig.add_subplot(1, 1, 1)  # Add axes to the figure: nrows, ncols, index
+        # Prepare label
+        if score_prcnt == 100:
+            ans_labels = [f"{score_prcnt:0.2f}%", ""]
+        elif score_prcnt == 0:
+            ans_labels = ["", f"{100-score_prcnt:0.2f}%"]
+        else:
+            ans_labels = [f"{score_prcnt:0.2f}%", f"{100-score_prcnt:0.2f}%"]
+        # Prepare colors and explode view
+        ans_colors = ["#0F9D58", "#DB4437"]
+        ans_explde = (0.1, 0)
+        wedges, _= ax.pie([score_prcnt, 100 - score_prcnt], labels=ans_labels, colors=ans_colors, radius=1, explode=ans_explde, textprops=dict(color="white"),
+                              pctdistance=2, labeldistance=0.25)
+        ax.legend(wedges, ["Correct", "Incorrect"], loc="upper left")
+        # Display pie chart
+        self.pie_chart = FigureCanvasTkAgg(fig, self.pie_frame)
+        self.pie_chart.get_tk_widget().pack()
         # Restart button
         self.restart_button = ttk.Button(self.root, text="Restart", command=self.restart)
         self.restart_button.pack()
 
     def restart(self):
+        self.pie_frame.pack_forget()
+        self.pie_chart.get_tk_widget().pack_forget()
         self.tg_logo.pack_forget()
         self.test_label.pack_forget()
         self.score_label.pack_forget()
@@ -208,12 +241,9 @@ class TestSimulator(tk.Frame):
 def main():
     # Root window
     root = tk.Tk()
-    root.title("TestGenius: Your Test Simulator")
-    root.geometry("600x850")
-    root.configure(bg="white")
-    # root.resizable(False, False)
     # Create test simulator object
     gui = TestSimulator(root, question_db)
+    # Run the GUI
     gui.mainloop()
 
 

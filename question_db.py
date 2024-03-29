@@ -1,5 +1,5 @@
 
-qb_cul = [
+qb_culture = [
     {
         "difficulty": "Easy",
         "question": "Which country is famous for its flamenco dance?",
@@ -98,9 +98,9 @@ qb_cul = [
     },
     {
         "difficulty": "Easy",
-        "question": "Who is the main character in William Shakespeare's play 'Hamlet'?",
-        "choices": ["Hamlet", "Macbeth", "Othello", "Romeo"],
-        "answer": "Hamlet"
+        "question": "Who was the influential pop artist known for creating iconic artworks featuring Marilyn Monroe?",
+        "choices": ["Jackson Pollock", "Andy Warhol", "Pablo Picasso", "Salvador Dalí"],
+        "answer": "Andy Warhol" 
     },
     {
         "difficulty": "Easy",
@@ -182,9 +182,9 @@ qb_cul = [
     },
     {
         "difficulty": "Easy",
-        "question": "Who painted the famous artwork 'The Starry Night'?",
-        "choices": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
-        "answer": "Vincent van Gogh"
+        "question": "Which American poet wrote 'The Road Not Taken' and 'Stopping by Woods on a Snowy Evening'?",
+        "choices": ["Emily Dickinson", "Langston Hughes", "Robert Frost", "Walt Whitman"],
+        "answer": "Robert Frost" 
     },
     {
         "difficulty": "Easy",
@@ -344,9 +344,9 @@ qb_cul = [
     },
     {
         "difficulty": "Medium",
-        "question": "What is the traditional greeting in Hawaii?",
-        "choices": ["Namaste", "Aloha", "Shalom", "Salaam"],
-        "answer": "Aloha"
+        "question": "Which ancient Greek philosopher is known for his teachings on ethics and morality, and was the student of Plato?",
+        "choices": ["Socrates", "Aristotle", "Pythagoras", "Sophocles"],
+        "answer": " Socrates" 
     },
     {
         "difficulty": "Medium",
@@ -446,9 +446,9 @@ qb_cul = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who wrote the famous play 'Romeo and Juliet'?",
-        "choices": ["William Shakespeare", "George Bernard Shaw", "Oscar Wilde", "Anton Chekhov"],
-        "answer": "William Shakespeare"
+        "question": "Who directed the famous film 'The Godfather'?",
+        "choices": ["Steven Spielberg", "Martin Scorsese", "Francis Ford Coppola", "Alfred Hitchcock"],
+        "answer": "Francis Ford Coppola" 
     },
     {
         "difficulty": "Medium",
@@ -476,9 +476,9 @@ qb_cul = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who wrote the famous play 'Hamlet'?",
-        "choices": ["William Shakespeare", "George Bernard Shaw", "Oscar Wilde", "Anton Chekhov"],
-        "answer": "William Shakespeare"
+        "question": "Who wrote the play 'The Crucible' which is based on the Salem witch trials and serves as an allegory for McCarthyism?",
+        "choices": ["Tennessee Williams", "Arthur Miller", "Eugene O'Neill", "Thornton Wilder"],
+        "answer": "Arthur Miller" 
     },
     {
         "difficulty": "Hard",
@@ -488,10 +488,10 @@ qb_cul = [
     }, 
     {
         "difficulty": "Hard",
-        "question": "Which artist is known for his iconic painting 'The Starry Night'?",
-        "choices": ["Claude Monet", "Vincent van Gogh", "Pablo Picasso", "Salvador Dali"],
-        "answer": "Vincent van Gogh"
-    }, 
+        "question": "Who is the author of the famous novel 'The Picture of Dorian Gray' which explores themes of vanity, morality, and the pursuit of beauty?",
+        "choices": ["Oscar Wilde", "Charles Dickens", "H.G. Wells", "Bram Stoker"],
+        "answer": "Oscar Wilde" 
+    },  
     {
         "difficulty": "Hard",
         "question": "In which African country is the city of Timbuktu, known historically as a center of learning and trade?",
@@ -536,9 +536,9 @@ qb_cul = [
     }, 
     {
         "difficulty": "Hard",
-        "question": "Who composed the famous ballet 'Swan Lake'?",
-        "choices": ["Ludwig van Beethoven", "Pyotr Ilyich Tchaikovsky", "Johann Strauss II", "Igor Stravinsky"],
-        "answer": "Pyotr Ilyich Tchaikovsky"
+        "question": "Which ballet, composed by Pyotr Ilyich Tchaikovsky, features characters like Odette, Odile, and Prince Siegfried?",
+        "choices": ["The Nutcracker", "Swan Lake", "Sleeping Beauty", "Giselle"],
+        "answer": "Swan Lake" 
     }, 
     {
         "difficulty": "Hard",
@@ -656,9 +656,9 @@ qb_cul = [
     }, 
     {
         "difficulty": "Hard",
-        "question": "Who painted the famous artwork 'The Birth of Venus'?",
-        "choices": ["Michelangelo", "Leonardo da Vinci", "Sandro Botticelli", "Raphael"],
-        "answer": "Sandro Botticelli"
+        "question": "Which musical genre originated in Jamaica and features a prominent beat and bass line?",
+        "choices": ["Reggae", "Salsa", "Flamenco", "Jazz"],
+        "answer": "Reggae" 
     }, 
     {
         "difficulty": "Hard",
@@ -704,9 +704,9 @@ qb_cul = [
     }, 
     {
         "difficulty": "Hard",
-        "question": "What is the traditional greeting in Thailand?",
-        "choices": ["Namaste", "Sawasdee", "Konnichiwa", "Annyeonghaseyo"],
-        "answer": "Sawasdee"
+        "question": "Which famous novel by Jane Austen explores themes of love, class, and social status in early 19th-century England?",
+        "choices": ["Wuthering Heights", "Pride and Prejudice", "Jane Eyre", "Sense and Sensibility"],
+        "answer": "Pride and Prejudice" 
     }, 
     {
         "difficulty": "Hard",
@@ -719,735 +719,733 @@ qb_cul = [
         "question": "What is the name of the traditional dance-drama from Indonesia, often performed in religious ceremonies?",
         "choices": ["Bhangra", "Kecak", "Bharatanatyam", "Kathakali"],
         "answer": "Kecak"
+    }
+]
+
+qb_geography = [
+    {
+        "difficulty": "Easy",
+        "question": "Which continent is home to the Great Wall of China, the Taj Mahal, and Mount Everest?",
+        "choices": ["Asia", "Europe", "Africa", "Australia"],
+        "answer": "Asia"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the largest ocean on Earth?",
+        "choices": ["Indian Ocean", "Atlantic Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which river is the longest in the world?",
+        "choices": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
+        "answer": "Nile River"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of France?",
+        "choices": ["Berlin", "Rome", "Paris", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which mountain range is the tallest in the world?",
+        "choices": ["Rocky Mountains", "Andes Mountains", "Alps", "Himalayas"],
+        "answer": "Himalayas"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which country is known as the 'Land of the Rising Sun'?",
+        "choices": ["China", "Japan", "India", "South Korea"],
+        "answer": "Japan"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Canada?",
+        "choices": ["Toronto", "Ottawa", "Montreal", "Vancouver"],
+        "answer": "Ottawa"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which desert is the largest in the world?",
+        "choices": ["Sahara Desert", "Gobi Desert", "Kalahari Desert", "Arabian Desert"],
+        "answer": "Sahara Desert"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Australia?",
+        "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "answer": "Canberra"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which is the smallest continent by land area?",
+        "choices": ["Africa", "Europe", "Australia", "Antarctica"],
+        "answer": "Australia"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the longest river in Europe?",
+        "choices": ["Thames River", "Rhine River", "Volga River", "Danube River"],
+        "answer": "Volga River"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which country is known as the 'Land of Fire and Ice'?",
+        "choices": ["Iceland", "Norway", "Finland", "Greenland"],
+        "answer": "Iceland"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Brazil?",
+        "choices": ["Rio de Janeiro", "Brasília", "Sao Paulo", "Salvador"],
+        "answer": "Brasília"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which ocean is situated between Africa and Australia?",
+        "choices": ["Indian Ocean", "Atlantic Ocean", "Southern Ocean", "Pacific Ocean"],
+        "answer": "Indian Ocean"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the highest mountain in Africa?",
+        "choices": ["Mount Kilimanjaro", "Mount Kenya", "Mount Everest", "Mount Elbrus"],
+        "answer": "Mount Kilimanjaro"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the largest country by land area in the world?",
+        "choices": ["United States", "Russia", "China", "Canada"],
+        "answer": "Russia"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of India?",
+        "choices": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+        "answer": "New Delhi"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which is the longest river in South America?",
+        "choices": ["Amazon River", "Orinoco River", "Paraná River", "Magdalena River"],
+        "answer": "Amazon River"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Spain?",
+        "choices": ["Madrid", "Barcelona", "Valencia", "Seville"],
+        "answer": "Madrid"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which is the largest lake by surface area in Africa?",
+        "choices": ["Lake Victoria", "Lake Tanganyika", "Lake Malawi", "Lake Laguna"],
+        "answer": "Lake Victoria"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Russia?",
+        "choices": ["St. Petersburg", "Moscow", "Novosibirsk", "Yekaterinburg"],
+        "answer": "Moscow"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which of the following is the highest peak in the Philippines?",
+        "choices": ["Mount Mayon", "Mount Pinatubo", "Mount Apo", "Mount Taal"],
+        "answer": "Mount Apo" 
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the smallest independent country in the world by land area?",
+        "choices": ["Monaco", "Vatican City", "Liechtenstein", "San Marino"],
+        "answer": "Vatican City"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Egypt?",
+        "choices": ["Cairo", "Alexandria", "Luxor", "Aswan"],
+        "answer": "Cairo"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which is the largest island in the Mediterranean Sea?",
+        "choices": ["Sicily", "Sardinia", "Corsica", "Crete"],
+        "answer": "Sicily"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the highest mountain in North America?",
+        "choices": ["Mount McKinley (Denali)", "Mount Logan", "Mount Rainier", "Mount Saint Elias"],
+        "answer": "Mount McKinley (Denali)"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which country is known as the 'Land of the Midnight Sun'?",
+        "choices": ["Norway", "Sweden", "Finland", "Iceland"],
+        "answer": "Norway"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of Argentina?",
+        "choices": ["Buenos Aires", "Santiago", "Montevideo", "Lima"],
+        "answer": "Buenos Aires"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which is the largest river in South Africa?",
+        "choices": ["Limpopo River", "Orange River", "Zambezi River", "Nile River"],
+        "answer": "Orange River"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "What is the capital city of South Korea?",
+        "choices": ["Busan", "Seoul", "Incheon", "Pyongyang"],
+        "answer": "Seoul"
+    },
+    {
+        "difficulty": "Easy",
+        "question": "Which of the following bodies of water surrounds the majority of the Philippine archipelago?",
+        "choices": ["South China Sea", "Pacific Ocean", "Celebes Sea", "Philippine Sea"],
+        "answer": "South China Sea" 
     }, 
-]
-
-qb_geo = [
     {
         "difficulty": "Easy",
-        "question": "Who wrote the 'Declaration of Independence' for the United States?",
-        "choices": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"],
-        "answer": "Thomas Jefferson"
+        "question": "Which river runs through London?",
+        "choices": ["Danube", "Nile", "Thames", "Seine"],
+        "answer": "Thames"
     },
     {
         "difficulty": "Easy",
-        "question": "Who was the first President of the United States?",
-        "choices": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-        "answer": "George Washington"
+        "question": "What is the largest city by population in the world?",
+        "choices": ["Beijing", "Tokyo", "New York City", "Delhi"],
+        "answer": "Tokyo"
     },
     {
         "difficulty": "Easy",
-        "question": "Who is known for discovering America in 1492?",
-        "choices": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "Amerigo Vespucci"],
-        "answer": "Christopher Columbus"
+        "question": "What is the capital city of China?",
+        "choices": ["Beijing", "Shanghai", "Hong Kong", "Taipei"],
+        "answer": "Beijing"
     },
     {
         "difficulty": "Easy",
-        "question": "Who was the famous nurse known for her work during the Crimean War and the founder of modern nursing?",
-        "choices": ["Clara Barton", "Florence Nightingale", "Mary Seacole", "Mother Teresa"],
-        "answer": "Florence Nightingale"
+        "question": "Which country is known as the 'Land Down Under'?",
+        "choices": ["Brazil", "New Zealand", "Australia", "South Africa"],
+        "answer": "Australia"
     },
     {
         "difficulty": "Easy",
-        "question": "What event marked the beginning of World War I?",
-        "choices": ["The sinking of the Lusitania", "The assassination of Archduke Franz Ferdinand", "The signing of the Treaty of Versailles", "The invasion of Poland"],
-        "answer": "The assassination of Archduke Franz Ferdinand"
+        "question": "What is the capital city of South Africa?",
+        "choices": ["Cape Town", "Johannesburg", "Pretoria", "Durban"],
+        "answer": "Pretoria"
     },
     {
         "difficulty": "Easy",
-        "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
-        "choices": ["Vladimir Putin", "Joseph Stalin", "Nikita Khrushchev", "Leon Trotsky"],
-        "answer": "Nikita Khrushchev"
+        "question": "What is the capital city of The Philippines?",
+        "choices": ["Buenos Aires", "Santiago", "Lima", "Manila"],
+        "answer": "Manila" 
     },
     {
         "difficulty": "Easy",
-        "question": "What was the name of the ship that brought the Pilgrims to America in 1620?",
-        "choices": ["Santa Maria", "Mayflower", "Nina", "Pinta"],
-        "answer": "Mayflower"
+        "question": "Which sea separates Europe from Africa?",
+        "choices": ["Mediterranean Sea", "Red Sea", "Arabian Sea", "Aegean Sea"],
+        "answer": "Mediterranean Sea"
     },
     {
         "difficulty": "Easy",
-        "question": "Who was the author of 'The Communist Manifesto'?",
-        "choices": ["Karl Marx", "Friedrich Engels", "Vladimir Lenin", "Joseph Stalin"],
-        "answer": "Karl Marx"
+        "question": "Which of the following is the longest river in the Philippines?",
+        "choices": ["Pasig River", "Cagayan River", "Agusan River", "Pampanga River"],
+        "answer": "Cagayan River"
     },
     {
         "difficulty": "Easy",
-        "question": "What ancient civilization built the Great Pyramid of Giza?",
-        "choices": ["Egyptian", "Greek", "Roman", "Babylonian"],
-        "answer": "Egyptian"
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran"],
-        "answer": "Amelia Earhart"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who painted the Mona Lisa?",
-        "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
-        "answer": "Leonardo da Vinci"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ship that Charles Darwin sailed on during his voyage, leading to his theory of evolution?",
-        "choices": ["HMS Endeavour", "HMS Beagle", "HMS Victory", "HMS Bounty"],
-        "answer": "HMS Beagle"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the first man to walk on the moon?",
-        "choices": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
-        "answer": "Neil Armstrong"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What event led to the start of the American Revolutionary War?",
-        "choices": ["Boston Tea Party", "Declaration of Independence", "Battle of Lexington and Concord", "Stamp Act"],
-        "answer": "Battle of Lexington and Concord"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What ancient civilization is known for its pyramids, pharaohs, and hieroglyphics?",
-        "choices": ["Greek", "Roman", "Egyptian", "Mesopotamian"],
-        "answer": "Egyptian"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the leader of the civil rights movement in the United States and delivered the famous 'I Have a Dream' speech?",
-        "choices": ["Martin Luther King Jr.", "Malcolm X", "Rosa Parks", "Nelson Mandela"],
-        "answer": "Martin Luther King Jr."
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir"],
-        "answer": "Margaret Thatcher"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What ancient wonder of the world was located in Alexandria, Egypt, and was considered the greatest library of antiquity?",
-        "choices": ["Hanging Gardens of Babylon", "Lighthouse of Alexandria", "Temple of Artemis at Ephesus", "Great Library of Alexandria"],
-        "answer": "Great Library of Alexandria"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the first President of the Soviet Union?",
-        "choices": ["Vladimir Lenin", "Joseph Stalin", "Nikita Khrushchev", "Mikhail Gorbachev"],
-        "answer": "Vladimir Lenin"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What ancient civilization is known for its city-states, democracy, and philosophy?",
-        "choices": ["Egyptian", "Mesopotamian", "Greek", "Roman"],
-        "answer": "Greek"
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Golda Meir", "Margaret Thatcher", "Angela Merkel", "Benazir Bhutto"],
-        "answer": "Golda Meir"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ancient Chinese philosopher known for his teachings on ethics and morality?",
-        "choices": ["Confucius", "Laozi", "Sun Tzu", "Mencius"],
-        "answer": "Confucius"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the founder of Buddhism?",
-        "choices": ["Confucius", "Siddhartha Gautama", "Laozi", "Mahavira"],
-        "answer": "Siddhartha Gautama"
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Julius Caesar", "Augustus Caesar", "Nero", "Constantine"],
-        "answer": "Augustus Caesar"
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Sparta", "Athens", "Thebes", "Corinth"],
-        "answer": "Athens"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ancient Greek city-state known for its military prowess and emphasis on discipline?",
-        "choices": ["Athens", "Sparta", "Thebes", "Corinth"],
-        "answer": "Sparta"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the famous leader of the Mongol Empire, known for his conquests across Asia and Europe?",
-        "choices": ["Genghis Khan", "Kublai Khan", "Attila the Hun", "Tamerlane"],
-        "answer": "Genghis Khan"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the first permanent English settlement in North America, established in 1607?",
-        "choices": ["Jamestown", "Plymouth", "Roanoke", "New Amsterdam"],
-        "answer": "Jamestown"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the author of the 'Common Sense' pamphlet, which advocated for American independence from Britain?",
-        "choices": ["John Adams", "Thomas Jefferson", "Benjamin Franklin", "Thomas Paine"],
-        "answer": "Thomas Paine"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ancient civilization that developed in the valley of the Tigris and Euphrates rivers?",
-        "choices": ["Egyptian", "Mesopotamian", "Indus Valley", "Minoan"],
-        "answer": "Mesopotamian"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the first European explorer to reach India by sea, establishing direct trade routes?",
-        "choices": ["Vasco da Gama", "Christopher Columbus", "Ferdinand Magellan", "Marco Polo"],
-        "answer": "Vasco da Gama"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What event marked the end of the American Civil War?",
-        "choices": ["Battle of Gettysburg", "Emancipation Proclamation", "Surrender at Appomattox Court House", "Assassination of Abraham Lincoln"],
-        "answer": "Surrender at Appomattox Court House"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the famous English playwright known for works like 'Romeo and Juliet' and 'Hamlet'?",
-        "choices": ["William Shakespeare", "Christopher Marlowe", "Ben Jonson", "John Milton"],
-        "answer": "William Shakespeare"
-    },
-    {
-        "difficulty": "Easy",
-
-        "choices": ["Grigori Rasputin", "Ivan the Terrible", "Peter the Great", "Nicholas II"],
-        "answer": "Grigori Rasputin"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the first woman to win a Nobel Prize, awarded for her research on radioactivity?",
-        "choices": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Dorothy Hodgkin"],
-        "answer": "Marie Curie"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ancient Greek philosopher known for his method of questioning and his contributions to Western philosophy?",
-        "choices": ["Socrates", "Plato", "Aristotle", "Pythagoras"],
-        "answer": "Socrates"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the first African American to become President of the United States?",
-        "choices": ["Barack Obama", "Martin Luther King Jr.", "Jesse Jackson", "Nelson Mandela"],
-        "answer": "Barack Obama"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "Who was the ancient Egyptian queen known for her relationships with Julius Caesar and Mark Antony?",
-        "choices": ["Cleopatra", "Nefertiti", "Hatshepsut", "Ankhesenamun"],
-        "answer": "Cleopatra"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What was the name of the ancient empire ruled by Julius Caesar, Augustus, and other Roman emperors?",
-        "choices": ["Roman Republic", "Byzantine Empire", "Ottoman Empire", "Roman Empire"],
-        "answer": "Roman Empire"
-    },
-    {
-        "difficulty": "Easy",
-        "question": "What event marked the beginning of World War II?",
-        "choices": ["The signing of the Treaty of Versailles", "The assassination of Archduke Franz Ferdinand", "The invasion of Poland", "The bombing of Pearl Harbor"],
-        "answer": "The invasion of Poland"
+        "question": "Which ocean is the warmest?",
+        "choices": ["Pacific Ocean", "Indian Ocean", "Atlantic Ocean", "Southern Ocean"],
+        "answer": "Indian Ocean"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first Emperor of Rome?",
-        "choices": ["Julius Caesar", "Augustus Caesar", "Nero", "Constantine"],
-        "answer": "Augustus Caesar"
+        "question": "What is the name of the largest lake in the Philippines?",
+        "choices": ["Laguna de Bay", "Lake Lanao", "Lake Taal", "Lake Mainit"],
+        "answer": "Laguna de Bay" 
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the ancient Greek city-state known for its cultural achievements, including democracy and philosophy?",
-        "choices": ["Sparta", "Athens", "Corinth", "Thebes"],
-        "answer": "Athens"
+        "question": "Which of the following is the largest island in Japan?",
+        "choices": ["Shikoku", "Kyushu", "Honshu", "Hokkaido"],
+        "answer": "Honshu" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the longest-reigning monarch in French history?",
-        "choices": ["Louis XIV", "Louis XVI", "Louis XV", "Louis XIII"],
-        "answer": "Louis XIV"
+        "question": "The Strait of Gibraltar separates which two continents?",
+        "choices": ["Europe and Africa", "North America and Europe", "Africa and Asia", "Europe and Asia"],
+        "answer": "Europe and Africa"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the period of renewed interest in classical art, culture, and learning that began in Italy in the 14th century?",
-        "choices": ["Renaissance", "Enlightenment", "Industrial Revolution", "Baroque Period"],
-        "answer": "Renaissance"
+        "question": "Which river is the longest in South America?",
+        "choices": ["Amazon", "Mississippi", "Nile", "Yangtze"],
+        "answer": "Amazon"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the leader of the Bolshevik Revolution in Russia?",
-        "choices": ["Vladimir Lenin", "Joseph Stalin", "Leon Trotsky", "Mikhail Gorbachev"],
-        "answer": "Vladimir Lenin"
+        "question": "Which desert is located in the southwestern United States and northern Mexico?",
+        "choices": ["Sahara Desert", "Gobi Desert", "Atacama Desert", "Sonoran Desert"],
+        "answer": "Sonoran Desert"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the document that established the first permanent English colony in North America in 1607?",
-        "choices": ["Mayflower Compact", "Jamestown Charter", "Plymouth Agreement", "Virginia Company Charter"],
-        "answer": "Virginia Company Charter"
+        "question": "Which of the following is the highest mountain in Japan?",
+        "choices": ["Mount Fuji", "Mount Aso", "Mount Tateyama", "Mount Ontake"],
+        "answer": "Mount Fuji" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first European explorer to reach India by sea?",
-        "choices": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "Amerigo Vespucci"],
-        "answer": "Vasco da Gama"
+        "question": "Which country is known for having the world's largest rainforest?",
+        "choices": ["Brazil", "Russia", "Canada", "Australia"],
+        "answer": "Brazil"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the period of cultural, economic, and political flourishing in the Islamic world that lasted from the 8th to the 14th century?",
-        "choices": ["Dark Ages", "Renaissance", "Enlightenment", "Islamic Golden Age"],
-        "answer": "Islamic Golden Age"
+        "question": "Mount Kilimanjaro, Africa's tallest mountain, is located in which country?",
+        "choices": ["Kenya", "Tanzania", "Uganda", "Ethiopia"],
+        "answer": "Tanzania"
     },
     {
         "difficulty": "Medium",
-
-        "choices": ["Montezuma II", "Atahualpa", "Huayna Capac", "Pachacuti"],
-        "answer": "Montezuma II"
+        "question": "What is the capital city of Thailand?",
+        "choices": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+        "answer": "Bangkok"
     },
     {
         "difficulty": "Medium",
-
-        "choices": ["Haitian Revolution", "Cuban Revolution", "American Revolution", "French Revolution"],
-        "answer": "Haitian Revolution"
+        "question": "The Great Dividing Range runs along the eastern coast of which country?",
+        "choices": ["Australia", "Brazil", "Canada", "Japan"],
+        "answer": "Australia"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the last monarch of France before the French Revolution?",
-        "choices": ["Louis XV", "Louis XVI", "Louis XIV", "Louis XIII"],
-        "answer": "Louis XVI"
+        "question": "Which river is the longest in Asia?",
+        "choices": ["Yangtze", "Ganges", "Yellow River", "Mekong"],
+        "answer": "Yangtze"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the famous Scottish economist known for his work 'The Wealth of Nations'?",
-        "choices": ["John Locke", "Thomas Hobbes", "Adam Smith", "Karl Marx"],
-        "answer": "Adam Smith"
+        "question": "Which city is located on the islands of Honshu and Kyushu?",
+        "choices": ["Tokyo", "Seoul", "Beijing", "Manila"],
+        "answer": "Tokyo"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the ancient library in Alexandria, Egypt, known as a center of learning in the ancient world?",
-        "choices": ["Library of Pergamum", "Library of Congress", "Great Library of Alexandria", "Vatican Library"],
-        "answer": "Great Library of Alexandria"
+        "question": "The Suez Canal connects which two bodies of water?",
+        "choices": ["Red Sea and Indian Ocean", "Red Sea and Mediterranean Sea", "Persian Gulf and Arabian Sea", "Mediterranean Sea and Atlantic Ocean"],
+        "answer": "Red Sea and Mediterranean Sea"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the alliance of Germany, Italy, and Japan during World War II?",
-        "choices": ["Allied Powers", "Central Powers", "Axis Powers", "Triple Entente"],
-        "answer": "Axis Powers"
+        "question": "Which of the following is the longest river in Japan?",
+        "choices": ["Shinano River", "Tone River", "Ishikari River", "Kiso River"],
+        "answer": "Shinano River" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the last emperor of Russia, whose abdication led to the Russian Revolution?",
-        "choices": ["Alexander II", "Nicholas I", "Nicholas II", "Peter the Great"],
-        "answer": "Nicholas II"
+        "question": "Which country is known for its fjords, volcanoes, and geysers?",
+        "choices": ["Iceland", "Norway", "New Zealand", "Chile"],
+        "answer": "Iceland"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the French military leader who rose to power during the French Revolution and became Emperor of the French?",
-        "choices": ["Louis XVI", "Napoleon Bonaparte", "Robespierre", "Louis XVIII"],
-        "answer": "Napoleon Bonaparte"
+        "question": "Which river flows through Paris?",
+        "choices": ["Rhine", "Thames", "Seine", "Danube"],
+        "answer": "Seine"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the Spanish conquistador who conquered the Inca Empire?",
-        "choices": ["Francisco Pizarro", "Hernán Cortés", "Vasco Núñez de Balboa", "Ferdinand Magellan"],
-        "answer": "Francisco Pizarro"
+        "question": "Which country is the largest by land area in Africa?",
+        "choices": ["Nigeria", "Sudan", "Algeria", "Democratic Republic of the Congo"],
+        "answer": "Algeria"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the English monarch during the defeat of the Spanish Armada?",
-        "choices": ["Elizabeth I", "Henry VIII", "Mary I", "Edward VI"],
-        "answer": "Elizabeth I"
+        "question": "The Great Victoria Desert is located in which country?",
+        "choices": ["Australia", "South Africa", "Saudi Arabia", "Chile"],
+        "answer": "Australia"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the treaty that ended the Thirty Years' War in 1648?",
-        "choices": ["Treaty of Westphalia", "Treaty of Versailles", "Treaty of Paris", "Treaty of Utrecht"],
-        "answer": "Treaty of Westphalia"
+        "question": "Which strait separates Hokkaido from Russia?",
+        "choices": ["Tsugaru Strait", "La Pérouse Strait", "Soya Strait", "Tatar Strait"],
+        "answer": "La Pérouse Strait" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first European explorer to reach the Pacific Ocean from the Americas?",
-        "choices": ["Ferdinand Magellan", "Christopher Columbus", "Vasco Núñez de Balboa", "Juan Ponce de León"],
-        "answer": "Vasco Núñez de Balboa"
+        "question": "Which lake is the largest by surface area in Africa?",
+        "choices": ["Lake Tanganyika", "Lake Victoria", "Lake Malawi", "Lake Superior"],
+        "answer": "Lake Victoria"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the battle in 1066 that resulted in the Norman conquest of England?",
-        "choices": ["Battle of Hastings", "Battle of Stamford Bridge", "Battle of Bataan", "Battle of Gettysburg"],
-        "answer": "Battle of Hastings"
+        "question": "Which country is known as the 'Emerald Isle'?",
+        "choices": ["Iceland", "New Zealand", "Ireland", "Scotland"],
+        "answer": "Ireland"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first female Prime Minister of Israel?",
-        "choices": ["Golda Meir", "Margaret Thatcher", "Angela Merkel", "Benazir Bhutto"],
-        "answer": "Golda Meir"
+        "question": "Which of the following is the southernmost prefecture of Japan?",
+        "choices": ["Okinawa", "Kagoshima", "Kumamoto", "Miyazaki"],
+        "answer": "Okinawa" 
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the ancient Greek historian often referred to as the 'Father of History'?",
-        "choices": ["Thucydides", "Herodotus", "Xenophon", "Plutarch"],
-        "answer": "Herodotus"
+        "question": "The Strait of Hormuz is strategically located between which two bodies of water?",
+        "choices": ["Red Sea and Arabian Sea", "Mediterranean Sea and Atlantic Ocean", "Indian Ocean and Bay of Bengal", "Persian Gulf and Gulf of Oman"],
+        "answer": "Persian Gulf and Gulf of Oman"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the Spanish conquistador who conquered the Aztec Empire?",
-        "choices": ["Hernán Cortés", "Francisco Pizarro", "Juan Ponce de León", "Hernando de Soto"],
-        "answer": "Hernán Cortés"
+        "question": "Which country is the smallest by land area in the world?",
+        "choices": ["Monaco", "Vatican City", "Nauru", "Tuvalu"],
+        "answer": "Vatican City"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the famous political and social movement that swept across Europe in the mid-19th century, advocating for national unity and independence?",
-        "choices": ["Enlightenment Movement", "Industrial Revolution", "Romanticism", "Revolutions of 1848"],
-        "answer": "Revolutions of 1848"
+        "question": "Which of the following cities is not located on the island of Honshu?",
+        "choices": ["Tokyo", "Osaka", "Fukuoka", "Sapporo"],
+        "answer": "Sapporo" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first female Prime Minister of India?",
-        "choices": ["Margaret Thatcher", "Benazir Bhutto", "Indira Gandhi", "Golda Meir"],
-        "answer": "Indira Gandhi"
+        "question": "The city of Istanbul is located on two continents. Which continents are they?",
+        "choices": ["Europe and Asia", "Africa and Europe", "Asia and Africa", "Europe and North America"],
+        "answer": "Europe and Asia"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the first successful slave revolt that led to the establishment of Haiti as an independent nation?",
-        "choices": ["American Revolution", "French Revolution", "Haitian Revolution", "Cuban Revolution"],
-        "answer": "Haitian Revolution"
+        "question": "Which of the following is the highest peak in Japan's Northern Alps?",
+        "choices": ["Mount Tateyama", "Mount Hotaka", "Mount Yari", "Mount Shirouma"],
+        "answer": "Mount Yari" 
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the battle that marked the end of Napoleon's rule as Emperor of France?",
-        "choices": ["Battle of Austerlitz", "Battle of Waterloo", "Battle of Leipzig", "Battle of Trafalgar"],
-        "answer": "Battle of Waterloo"
+        "question": "The Appalachian Mountains stretch from which state in the United States to the Canadian province of Newfoundland and Labrador?",
+        "choices": ["New York", "Pennsylvania", "Maine", "Georgia"],
+        "answer": "Maine"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the last ruling pharaoh of ancient Egypt?",
-        "choices": ["Tutankhamun", "Cleopatra VII", "Ramesses II", "Hatshepsut"],
-        "answer": "Cleopatra VII"
+        "question": "Which country is known as the 'Land of the Thunder Dragon'?",
+        "choices": ["Nepal", "Bhutan", "Myanmar", "Sri Lanka"],
+        "answer": "Bhutan"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the ancient civilization that developed along the Tigris and Euphrates rivers?",
-        "choices": ["Egyptian Civilization", "Indus Valley Civilization", "Mesopotamian Civilization", "Minoan Civilization"],
-        "answer": "Mesopotamian Civilization"
+        "question": "What is the capital city of Turkey?",
+        "choices": ["Istanbul", "Ankara", "Izmir", "Antalya"],
+        "answer": "Ankara"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first female aviator to fly solo across the Atlantic Ocean?",
-        "choices": ["Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran"],
-        "answer": "Amelia Earhart"
+        "question": "The city of Vancouver is located in which Canadian province?",
+        "choices": ["Ontario", "British Columbia", "Quebec", "Alberta"],
+        "answer": "British Columbia"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the Japanese military dictator who ruled Japan during the feudal period?",
-        "choices": ["Emperor Meiji", "Oda Nobunaga", "Toyotomi Hideyoshi", "Tokugawa Ieyasu"],
-        "answer": "Tokugawa Ieyasu"
+        "question": "Which country is known for its thousands of islands, the largest being Sumatra, Java, and Borneo?",
+        "choices": ["Philippines", "Malaysia", "Indonesia", "Thailand"],
+        "answer": "Indonesia"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the treaty that ended World War I?",
-        "choices": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Trianon", "Treaty of Brest-Litovsk"],
-        "answer": "Treaty of Versailles"
+        "question": "What is the capital city of Iran?",
+        "choices": ["Tehran", "Baghdad", "Kabul", "Riyadh"],
+        "answer": "Tehran"
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the famous Roman general who became consul for life and was assassinated on the Ides of March?",
-        "choices": ["Julius Caesar", "Augustus Caesar", "Mark Antony", "Cicero"],
-        "answer": "Julius Caesar"
+        "question": "The city of Auckland is located in which country?",
+        "choices": ["Australia", "New Zealand", "Fiji", "Papua New Guinea"],
+        "answer": "New Zealand"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the Norse god of thunder?",
-        "choices": ["Thor", "Loki", "Odin", "Freyr"],
-        "answer": "Thor"
+        "question": "Which river is often considered the cradle of civilization?",
+        "choices": ["Tigris", "Euphrates", "Indus", "Nile"],
+        "answer": "Euphrates"
     },
     {
         "difficulty": "Medium",
-        "question": "What is the name of the river that flows through Egypt?",
-        "choices": ["Euphrates River", "Nile River", "Tigris River", "Jordan River"],
-        "answer": "Nile River"
+        "question": "Which strait separates Shikoku from Honshu?",
+        "choices": ["Kanmon Strait", "Naruto Strait", "Seto Inland Sea", "Akashi Strait"],
+        "answer": "Naruto Strait" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the author of 'The Art of War', an ancient Chinese military treatise?",
-        "choices": ["Confucius", "Laozi", "Sun Tzu", "Mencius"],
-        "answer": "Sun Tzu"
+        "question": "The Andes mountain range runs through which South American countries?",
+        "choices": ["Argentina and Brazil", "Peru and Bolivia", "Colombia and Venezuela", "Chile and Ecuador"],
+        "answer": "Peru and Bolivia"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the Roman general who led the conquest of Gaul and later became dictator of Rome?",
-        "choices": ["Mark Antony", "Augustus Caesar", "Julius Caesar", "Pompey"],
-        "answer": "Julius Caesar"
+        "question": "Which mountain is considered the highest peak in South Korea?",
+        "choices": ["Mount Jiri", "Mount Halla", "Mount Seorak", "Mount Baekdu"],
+        "answer": "Mount Halla" 
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the last ruler of the Aztec Empire before it was conquered by the Spanish conquistadors?",
-        "choices": ["Moctezuma II", "Montezuma I", "Cuauhtémoc", "Itzcoatl"],
-        "answer": "Moctezuma II"
+        "question": "Which country is known as the 'Land of a Thousand Lakes'?",
+        "choices": ["Finland", "Sweden", "Norway", "Canada"],
+        "answer": "Finland"
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the legendary British king who pulled the sword from the stone?",
-        "choices": ["Arthur", "Lancelot", "Merlin", "Galahad"],
-        "answer": "Arthur"
+        "question": "The city of Nairobi is located in which African country?",
+        "choices": ["Kenya", "Ethiopia", "Tanzania", "Uganda"],
+        "answer": "Kenya"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first Emperor of China?",
-        "choices": ["Qin Shi Huang", "Han Wudi", "Emperor Taizong", "Emperor Wu of Han"],
-        "answer": "Qin Shi Huang"
+        "question": "Which country has the world's largest coastline?",
+        "choices": ["Canada", "Australia", "United States", "Russia"],
+        "answer": "Canada"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization built the city of Machu Picchu?",
-        "choices": ["Aztecs", "Mayans", "Incas", "Olmecs"],
-        "answer": "Incas"
+        "question": "The city of Ulaanbaatar is the capital of which country?",
+        "choices": ["Mongolia", "Kazakhstan", "Uzbekistan", "Turkmenistan"],
+        "answer": "Mongolia"
     },
     {
         "difficulty": "Hard",
-        "question": "Which Roman Emperor ordered the construction of the Colosseum?",
-        "choices": ["Augustus", "Nero", "Trajan", "Vespasian"],
-        "answer": "Vespasian"
+        "question": "Which mountain is the tallest outside of Asia?",
+        "choices": ["Mount Kilimanjaro", "Mount Aconcagua", "Mount McKinley (Denali)", "Mount Vinson"],
+        "answer": "Mount Aconcagua"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first female pharaoh of ancient Egypt?",
-        "choices": ["Hatshepsut", "Cleopatra", "Nefertiti", "Sobekneferu"],
-        "answer": "Hatshepsut"
+        "question": "What is the lowest point on Earth's surface?",
+        "choices": ["Mariana Trench", "Challenger Deep", "Dead Sea", "Lake Baikal"],
+        "answer": "Challenger Deep"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the period of political instability and military conflict in ancient Rome, which ultimately led to the fall of the Roman Republic?",
-        "choices": ["Pax Romana", "Crisis of the Third Century", "Punic Wars", "Marian Reforms"],
-        "answer": "Crisis of the Third Century"
+        "question": "Which country lies on both the equator and the Prime Meridian?",
+        "choices": ["Brazil", "Indonesia", "Ghana", "Gabon"],
+        "answer": "Indonesia"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
-        "choices": ["Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran"],
-        "answer": "Amelia Earhart"
+        "question": "The Pamir Mountains are often referred to as the 'Roof of the World.' In which continent are they located?",
+        "choices": ["Africa", "Asia", "South America", "Europe"],
+        "answer": "Asia"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization developed the first known writing system called cuneiform?",
-        "choices": ["Egyptians", "Sumerians", "Babylonians", "Assyrians"],
-        "answer": "Sumerians"
+        "question": "Which desert is the hottest in the world?",
+        "choices": ["Sahara Desert", "Dasht-e Lut", "Sonoran Desert", "Rub' al Khali (Empty Quarter)"],
+        "answer": "Dasht-e Lut"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the Roman general who defeated Hannibal in the Battle of Zama during the Second Punic War?",
-        "choices": ["Scipio Africanus", "Julius Caesar", "Gaius Marius", "Lucius Cornelius Sulla"],
-        "answer": "Scipio Africanus"
+        "question": "Lake Baikal, the deepest lake in the world, is located in which country?",
+        "choices": ["Russia", "Kazakhstan", "Mongolia", "China"],
+        "answer": "Russia"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization built the city of Persepolis?",
-        "choices": ["Assyrians", "Persians", "Babylonians", "Hittites"],
-        "answer": "Persians"
+        "question": "The city of Timbuktu, known for its historical significance as a center of trade and scholarship, is located in which African country?",
+        "choices": ["Mali", "Niger", "Chad", "Mauritania"],
+        "answer": "Mali"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the Japanese Emperor during World War II?",
-        "choices": ["Emperor Taishō", "Emperor Meiji", "Emperor Shōwa (Hirohito)", "Emperor Heisei"],
-        "answer": "Emperor Shōwa (Hirohito)"
+        "question": "What is the capital city of New Zealand's South Island?",
+        "choices": ["Christchurch", "Dunedin", "Wellington", "Queenstown"],
+        "answer": "Dunedin"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the period of time in Japan characterized by a strict isolationist foreign policy?",
-        "choices": ["Edo Period", "Kamakura Period", "Heian Period", "Muromachi Period"],
-        "answer": "Edo Period"
+        "question": "Which island is the largest in the Mediterranean Sea?",
+        "choices": ["Sicily", "Corsica", "Sardinia", "Crete"],
+        "answer": "Sicily"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the Byzantine Emperor during the height of the Byzantine Empire and the expansion of its territory?",
-        "choices": ["Justinian I", "Constantine the Great", "Theodosius I", "Basil II"],
-        "answer": "Justinian I"
+        "question": "The city of Port-au-Prince is the capital of which Caribbean country?",
+        "choices": ["Jamaica", "Haiti", "Dominican Republic", "Cuba"],
+        "answer": "Haiti"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the Chinese military general and strategist who wrote 'The Art of War'?",
-        "choices": ["Sun Tzu", "Confucius", "Laozi", "Mencius"],
-        "answer": "Sun Tzu"
+        "question": "Which river forms part of the border between the United States and Mexico?",
+        "choices": ["Rio Grande", "Colorado River", "Mississippi River", "Missouri River"],
+        "answer": "Rio Grande"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the last emperor of the Western Roman Empire?",
-        "choices": ["Romulus Augustulus", "Julius Nepos", "Honorius", "Constantine III"],
-        "answer": "Romulus Augustulus"
+        "question": "Mount Elbrus, the highest peak in Europe, is located in which country?",
+        "choices": ["Russia", "Georgia", "Armenia", "Azerbaijan"],
+        "answer": "Russia"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization was responsible for the construction of the Great Pyramid of Giza?",
-        "choices": ["Sumerians", "Egyptians", "Greeks", "Phoenicians"],
-        "answer": "Egyptians"
+        "question": "Which country is the northernmost in Africa?",
+        "choices": ["Egypt", "Libya", "Algeria", "Tunisia"],
+        "answer": "Algeria"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the leader of the Soviet Union during World War II?",
-        "choices": ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky", "Nikita Khrushchev"],
-        "answer": "Joseph Stalin"
+        "question": "What is the capital city of Bolivia?",
+        "choices": ["La Paz", "Sucre", "Santa Cruz", "Cochabamba"],
+        "answer": "La Paz"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the treaty that ended the Peloponnesian War between Athens and Sparta?",
-        "choices": ["Treaty of Versailles", "Treaty of Nicias", "Treaty of Corinth", "Peace of Antalcidas"],
-        "answer": "Treaty of Nicias"
+        "question": "Which river is considered the 'cradle of ancient Egyptian civilization'?",
+        "choices": ["Tigris", "Euphrates", "Nile", "Indus"],
+        "answer": "Nile"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the last monarch of the Kingdom of Hawaii before it was overthrown?",
-        "choices": ["Queen Liliʻuokalani", "King Kalākaua", "Queen Kaʻahumanu", "King Kamehameha III"],
-        "answer": "Queen Liliʻuokalani"
+        "question": "The city of Vladivostok, Russia, is located near the borders of which two countries?",
+        "choices": ["China and North Korea", "Japan and South Korea", "Mongolia and Kazakhstan", "Ukraine and Belarus"],
+        "answer": "China and North Korea"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the Japanese admiral who planned the attack on Pearl Harbor?",
-        "choices": ["Isoroku Yamamoto", "Hirohito", "Hideki Tojo", "Yamamoto Kansuke"],
-        "answer": "Isoroku Yamamoto"
+        "question": "Which island nation is home to the world's only known dragon species?",
+        "choices": ["Indonesia", "Malaysia", "Singapore", "Philippines"],
+        "answer": "Indonesia"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first female Prime Minister of the United Kingdom?",
-        "choices": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir"],
-        "answer": "Margaret Thatcher"
+        "question": "What is the capital city of Kazakhstan?",
+        "choices": ["Astana", "Almaty", "Bishkek", "Tashkent"],
+        "answer": "Astana"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the ancient trade route that connected the East and West, facilitating the exchange of goods, ideas, and cultures?",
-        "choices": ["Silk Road", "Spice Route", "Trans-Saharan Trade Route", "Amber Road"],
-        "answer": "Silk Road"
+        "question": "The Strait of Magellan separates which two landmasses?",
+        "choices": ["Africa and Europe", "Asia and North America", "South America and Antarctica", "Australia and Asia"],
+        "answer": "South America and Antarctica"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first Roman Emperor to convert to Christianity?",
-        "choices": ["Nero", "Constantine the Great", "Augustus", "Julius Caesar"],
-        "answer": "Constantine the Great"
+        "question": "Which country is the largest by land area in Central America?",
+        "choices": ["Mexico", "Guatemala", "Honduras", "Nicaragua"],
+        "answer": "Mexico"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization built the city of Teotihuacan in present-day Mexico?",
-        "choices": ["Maya", "Olmec", "Toltec", "Aztec"],
-        "answer": "Toltec"
+        "question": "The city of Kathmandu is the capital of which country?",
+        "choices": ["Bhutan", "Nepal", "Tibet", "Bangladesh"],
+        "answer": "Nepal"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the Byzantine Emperor responsible for codifying Roman law into the Corpus Juris Civilis?",
-        "choices": ["Justinian I", "Theodosius I", "Heraclius", "Leo III"],
-        "answer": "Justinian I"
+        "question": "What is the capital city of Yemen?",
+        "choices": ["Sana'a", "Aden", "Riyadh", "Muscat"],
+        "answer": "Sana'a"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the German monk who started the Protestant Reformation in the 16th century?",
-        "choices": ["Martin Luther", "John Calvin", "Ulrich Zwingli", "John Wycliffe"],
-        "answer": "Martin Luther"
+        "question": "Which African country is known as the 'Land of a Thousand Hills'?",
+        "choices": ["Rwanda", "Kenya", "Uganda", "Ethiopia"],
+        "answer": "Rwanda"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the Mongol leader who founded the Yuan Dynasty in China?",
-        "choices": ["Genghis Khan", "Kublai Khan", "Ogedei Khan", "Timur"],
-        "answer": "Kublai Khan"
+        "question": "What is the capital city of Uzbekistan?",
+        "choices": ["Tashkent", "Bishkek", "Dushanbe", "Ashgabat"],
+        "answer": "Tashkent"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the ancient city known for its Hanging Gardens, one of the Seven Wonders of the Ancient World?",
-        "choices": ["Babylon", "Athens", "Rome", "Alexandria"],
-        "answer": "Babylon"
+        "question": "The Tropic of Capricorn passes through which South American country?",
+        "choices": ["Brazil", "Argentina", "Chile", "Peru"],
+        "answer": "Argentina"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the English monarch during the time of the Spanish Armada?",
-        "choices": ["Elizabeth I", "Henry VIII", "Mary I", "Edward VI"],
-        "answer": "Elizabeth I"
+        "question": "Which island group is known for its unique wildlife, including giant tortoises and blue-footed boobies?",
+        "choices": ["Galapagos Islands", "Maldives", "Seychelles", "Canary Islands"],
+        "answer": "Galapagos Islands"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the Russian mystic and advisor to the Romanov family who was assassinated in 1916?",
-        "choices": ["Grigori Rasputin", "Ivan the Terrible", "Vladimir Lenin", "Leon Trotsky"],
-        "answer": "Grigori Rasputin"
+        "question": "What is the capital city of Latvia?",
+        "choices": ["Riga", "Tallinn", "Vilnius", "Helsinki"],
+        "answer": "Riga"
     },
     {
         "difficulty": "Hard",
-        "question": "Which English king was forced to sign the Magna Carta in 1215, limiting the power of the monarchy?",
-        "choices": ["Edward I", "Henry II", "John I (John Lackland)", "Richard I (Richard the Lionheart)"],
-        "answer": "John I (John Lackland)"
+        "question": "Which of the following countries does not border the Pacific Ocean?",
+        "choices": ["Ecuador", "Vietnam", "Panama", "Philippines"],
+        "answer": "Panama"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first Emperor of the Roman Empire?",
-        "choices": ["Julius Caesar", "Augustus Caesar", "Nero", "Constantine the Great"],
-        "answer": "Augustus Caesar"
+        "question": "Which island group is known as the 'Pearl of the Indian Ocean'?",
+        "choices": ["Seychelles", "Maldives", "Mauritius", "Madagascar"],
+        "answer": "Mauritius"
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization developed the concept of zero in mathematics?",
-        "choices": ["Egyptians", "Greeks", "Babylonians", "Maya"],
-        "answer": "Maya"
+        "question": "Which of the following countries does not have a coastline along the Arabian Sea?",
+        "choices": ["Oman", "Yemen", "Iran", "Pakistan"],
+        "answer": "Iran"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first European explorer to reach the southern tip of Africa, establishing a sea route to Asia?",
-        "choices": ["Vasco da Gama", "Bartolomeu Dias", "Ferdinand Magellan", "Christopher Columbus"],
-        "answer": "Bartolomeu Dias"
+        "question": "What is the capital city of Mongolia?",
+        "choices": ["Ulaanbaatar", "Astana", "Bishkek", "Dushanbe"],
+        "answer": "Ulaanbaatar"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the Russian monk who influenced the Russian royal family through his mystical teachings?",
-        "choices": ["Grigori Rasputin", "Ivan the Terrible", "Peter the Great", "Nicholas II"],
-        "answer": "Grigori Rasputin"
+        "question": "Which mountain range separates France and Spain?",
+        "choices": ["Pyrenees", "Alps", "Apennines", "Carpathians"],
+        "answer": "Pyrenees"
     },
     {
         "difficulty": "Hard",
-        "question": "Which European explorer led the first expedition to circumnavigate the globe?",
-        "choices": ["Ferdinand Magellan", "Vasco da Gama", "Christopher Columbus", "Marco Polo"],
-        "answer": "Ferdinand Magellan"
+        "question": "What is the longest river entirely within Russia?",
+        "choices": ["Volga", "Ob", "Yenisei", "Lena"],
+        "answer": "Volga"
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the last emperor of the Aztec Empire before it was conquered by the Spanish conquistadors?",
-        "choices": ["Moctezuma II", "Montezuma I", "Cuauhtémoc", "Itzcoatl"],
-        "answer": "Moctezuma II"
+        "question": "Which country does not border the Mediterranean Sea?",
+        "choices": ["Greece", "Lebanon", "Bulgaria", "Spain"],
+        "answer": "Bulgaria"
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the ancient city that served as the capital of the Inca Empire?",
-        "choices": ["Machu Picchu", "Cusco", "Tenochtitlan", "Chichen Itza"],
-        "answer": "Cusco"
+        "question": "Which river forms a natural boundary between North Korea and China?",
+        "choices": ["Han River", "Yalu River", "Taedong River", "Nakdong River"],
+        "answer": "Yalu River" 
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the founder of the Achaemenid Empire, often considered the first Persian Empire?",
-        "choices": ["Cyrus the Great", "Darius the Great", "Xerxes I", "Artaxerxes I"],
-        "answer": "Cyrus the Great"
+        "question": "Which African country is the largest by land area?",
+        "choices": ["Algeria", "Sudan", "Democratic Republic of the Congo", "Libya"],
+        "answer": "Algeria"
     },
     {
         "difficulty": "Hard",
-        "question": "What is the purpose of a Hardware Security Module (HSM) in cryptography?",
-        "choices": ["To accelerate cryptographic operations", "To generate secure random numbers", "To protect cryptographic keys from unauthorized access", "To encrypt data transmissions"],
-        "answer": "To protect cryptographic keys from unauthorized access"
+        "question": "Which of the following countries does not border the Mediterranean Sea?",
+        "choices": ["Italy", "Greece", "Turkey", "Austria"],
+        "answer": "Austria"
     },
     {
         "difficulty": "Hard",
-        "question": "Which of the following is a characteristic of a zero-knowledge proof?",
-        "choices": ["It requires both parties to possess a secret key", "It allows one party to prove the knowledge of a secret without revealing the secret itself", "It relies on the difficulty of solving mathematical problems", "It encrypts data using a symmetric encryption algorithm"],
-        "answer": "It allows one party to prove the knowledge of a secret without revealing the secret itself"
+        "question": "Which mountain range forms the border between Europe and Asia?",
+        "choices": ["The Alps", "The Rocky Mountains", "The Himalayas", "The Ural Mountains"],
+        "answer": "The Ural Mountains"
     }
 ]
 
-
-
-qb_his = [
+qb_history = [
     {
         "difficulty": "Easy",
         "question": "Who wrote the 'Declaration of Independence' for the United States?",
@@ -1536,7 +1534,7 @@ qb_his = [
         "difficulty": "Easy",
         "question": "What ancient civilization is known for its pyramids, pharaohs, and hieroglyphics?",
         "choices": ["Greek", "Roman", "Egyptian", "Mesopotamian"],
-        "answer": "Egyptian"
+        "answer": "Egyptian" 
     },
     {
         "difficulty": "Easy",
@@ -1690,15 +1688,15 @@ qb_his = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first Emperor of Rome?",
-        "choices": ["Julius Caesar", "Augustus Caesar", "Nero", "Constantine"],
-        "answer": "Augustus Caesar"
+        "question": "Which ancient civilization built the city of Machu Picchu?",
+        "choices": ["The Aztecs", " The Incas", "The Mayans", "The Egyptians"],
+        "answer": "The Incas" 
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the ancient Greek city-state known for its cultural achievements, including democracy and philosophy?",
-        "choices": ["Sparta", "Athens", "Corinth", "Thebes"],
-        "answer": "Athens"
+        "question": "Which famous naval battle in 1588 saw the defeat of the Spanish Armada by the English fleet?",
+        "choices": ["Battle of Trafalgar", "Battle of Lepanto", "Battle of Gravelines", "Battle of Jutland"],
+        "answer": "Battle of Gravelines" 
     },
     {
         "difficulty": "Medium",
@@ -1726,9 +1724,9 @@ qb_his = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first European explorer to reach India by sea?",
-        "choices": ["Christopher Columbus", "Ferdinand Magellan", "Vasco da Gama", "Amerigo Vespucci"],
-        "answer": "Vasco da Gama"
+        "question": "In what year did Ferdinand Marcos declare martial law in the Philippines?",
+        "choices": ["1965", "1972", "1981", "1986"],
+        "answer": "1972" 
     },
     {
         "difficulty": "Medium",
@@ -1816,9 +1814,9 @@ qb_his = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the first female Prime Minister of Israel?",
-        "choices": ["Golda Meir", "Margaret Thatcher", "Angela Merkel", "Benazir Bhutto"],
-        "answer": "Golda Meir"
+        "question": "What year did the Berlin Wall fall, effectively marking the end of the Cold War?",
+        "choices": ["1985", "1987", "1989", "1991"],
+        "answer": "1989" 
     },
     {
         "difficulty": "Medium",
@@ -1846,9 +1844,9 @@ qb_his = [
     },
     {
         "difficulty": "Medium",
-        "question": "What was the name of the first successful slave revolt that led to the establishment of Haiti as an independent nation?",
-        "choices": ["American Revolution", "French Revolution", "Haitian Revolution", "Cuban Revolution"],
-        "answer": "Haitian Revolution"
+        "question": "Which ancient civilization built the Great Pyramids of Giza?",
+        "choices": ["Ancient Greece", "Ancient Rome", "Ancient Egypt", "Ancient Mesopotamia"],
+        "answer": "Ancient Egypt" 
     },
     {
         "difficulty": "Medium",
@@ -1918,9 +1916,9 @@ qb_his = [
     },
     {
         "difficulty": "Medium",
-        "question": "Who was the last ruler of the Aztec Empire before it was conquered by the Spanish conquistadors?",
-        "choices": ["Moctezuma II", "Montezuma I", "Cuauhtémoc", "Itzcoatl"],
-        "answer": "Moctezuma II"
+        "question": "Which city was the capital of the Byzantine Empire?",
+        "choices": ["Constantinople", "Athens", "Rome", "Alexandria"],
+        "answer": "Constantinople" 
     },
     {
         "difficulty": "Medium",
@@ -1936,9 +1934,9 @@ qb_his = [
     },
     {
         "difficulty": "Hard",
-        "question": "Which ancient civilization built the city of Machu Picchu?",
-        "choices": ["Aztecs", "Mayans", "Incas", "Olmecs"],
-        "answer": "Incas"
+        "question": "Ferdinand Marcos was a prominent political figure in which country?",
+        "choices": ["Indonesia", "Philippines", "Malaysia", "Thailand"],
+        "answer": "Philippines"
     },
     {
         "difficulty": "Hard",
@@ -1960,9 +1958,9 @@ qb_his = [
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
-        "choices": ["Bessie Coleman", "Amelia Earhart", "Harriet Quimby", "Jacqueline Cochran"],
-        "answer": "Amelia Earhart"
+        "question": "Who was the first pharaoh of ancient Egypt?",
+        "choices": ["Cleopatra", "Tutankhamun", "Ramses II", "Menes"],
+        "answer": "Menes" 
     },
     {
         "difficulty": "Hard",
@@ -2044,9 +2042,9 @@ qb_his = [
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first female Prime Minister of the United Kingdom?",
-        "choices": ["Margaret Thatcher", "Theresa May", "Indira Gandhi", "Golda Meir"],
-        "answer": "Margaret Thatcher"
+        "question": "Which famous conqueror created one of the largest empires in history, stretching from Greece to Egypt and into present-day India?",
+        "choices": ["Alexander the Great", "Genghis Khan", "Julius Caesar", "Napoleon Bonaparte"],
+        "answer": "Alexander the Great" 
     },
     {
         "difficulty": "Hard",
@@ -2098,9 +2096,9 @@ qb_his = [
     },
     {
         "difficulty": "Hard",
-        "question": "What was the name of the Russian mystic and advisor to the Romanov family who was assassinated in 1916?",
-        "choices": ["Grigori Rasputin", "Ivan the Terrible", "Vladimir Lenin", "Leon Trotsky"],
-        "answer": "Grigori Rasputin"
+        "question": "Which war was fought between the Northern and Southern states of the United States from 1861 to 1865?",
+        "choices": ["The Revolutionary War", "The War of 1812", "The Civil War", "The Vietnam War"],
+        "answer": "The Civil War" 
     },
     {
         "difficulty": "Hard",
@@ -2110,9 +2108,9 @@ qb_his = [
     },
     {
         "difficulty": "Hard",
-        "question": "Who was the first Emperor of the Roman Empire?",
-        "choices": ["Julius Caesar", "Augustus Caesar", "Nero", "Constantine the Great"],
-        "answer": "Augustus Caesar"
+        "question": "The People Power Revolution, a series of nonviolent protests in the Philippines, led to the ousting of which authoritarian leader?",
+        "choices": ["Ferdinand Marcos", "Park Chung-hee", "Suharto", "Augusto Pinochet"],
+        "answer": "Ferdinand Marcos" 
     },
     {
         "difficulty": "Hard",
@@ -2155,10 +2153,22 @@ qb_his = [
         "question": "Who was the founder of the Achaemenid Empire, often considered the first Persian Empire?",
         "choices": ["Cyrus the Great", "Darius the Great", "Xerxes I", "Artaxerxes I"],
         "answer": "Cyrus the Great"
+    }, 
+    {
+        "difficulty": "Hard",
+        "question": "During which historical period did the Renaissance primarily flourish?",
+        "choices": ["The Middle Ages", "The Industrial Revolution", "The Age of Enlightenment", "The Early Modern Period"],
+        "answer": "The Early Modern Period"
+    },
+    {
+        "difficulty": "Hard",
+        "question": "Which ancient civilization is credited with the invention of writing?",
+        "choices": ["Ancient Egypt", "Ancient Greece", "Ancient Mesopotamia", "Ancient China"],
+        "answer": "Ancient Mesopotamia"
     }
 ]
 
-qb_tech = [
+qb_technology = [
     {
         "difficulty": "Easy",
         "question": "Which of the following is a type of computer memory?",
@@ -2289,7 +2299,7 @@ qb_tech = [
         "difficulty": "Easy",
         "question": "What does VPN stand for?",
         "choices": ["Virtual Private Network", "Very Private Network", "Verified Private Network", "Virtual Public Network"],
-        "answer": "Virtual Private Network"
+        "answer": ""
     },
     {
         "difficulty": "Easy",
@@ -2353,9 +2363,9 @@ qb_tech = [
     },
     {
         "difficulty": "Easy",
-        "question": "Which of the following is NOT a type of computer virus?",
-        "choices": ["Trojan Horse", "Worm", "Spyware", "Firewall"],
-        "answer": "Firewall"
+        "question": "Who is credited with inventing the World Wide Web?",
+        "choices": ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Mark Zuckerberg"],
+        "answer": "Tim Berners-Lee" 
     },
     {
         "difficulty": "Easy",
@@ -2443,9 +2453,9 @@ qb_tech = [
     },
     {
         "difficulty": "Medium",
-        "question": "Which of the following is NOT a type of computer virus?",
-        "choices": ["Worm", "Trojan", "Firewall", "Spyware"],
-        "answer": "Firewall"
+        "question": "What programming language is commonly used for developing Android applications?",
+        "choices": ["Java", "Python", "C#", "Swift"],
+        "answer": "Java" 
     },
     {
         "difficulty": "Medium",
@@ -2569,9 +2579,9 @@ qb_tech = [
     },
     {
         "difficulty": "Medium",
-        "question": "Which of the following is NOT a type of computer memory?",
-        "choices": ["ROM", "RAM", "CPU", "Cache"],
-        "answer": "CPU"
+        "question": "Which company developed the first widely-used graphical web browser?",
+        "choices": ["Mozilla", "Netscape", "Microsoft", "Google"],
+        "answer": "Netscape"
     },
     {
         "difficulty": "Medium",
@@ -2617,10 +2627,10 @@ qb_tech = [
     }, 
     {
         "difficulty": "Medium",
-        "question": "Which of the following is NOT a type of computer virus?",
-        "choices": ["Trojan", "Spyware", "Ransomware", "Adware"],
-        "answer": "Adware"
-    }, 
+        "question": "What was the name of the first widely-used web search engine?",
+        "choices": ["Google", "Yahoo", "AltaVista", "Bing"],
+        "answer": "AltaVista" 
+    },
     {
         "difficulty": "Medium",
         "question": "What is the purpose of an SSL certificate?",
@@ -2635,9 +2645,9 @@ qb_tech = [
     }, 
     {
         "difficulty": "Medium",
-        "question": "What is the purpose of a firewall in computer security?",
-        "choices": ["To block unauthorized access", "To increase internet speed", "To improve computer performance", "To create backups"],
-        "answer": "To block unauthorized access"
+        "question": "Which company developed the first commercially successful personal computer?",
+        "choices": ["Apple", "IBM", "Microsoft", "Hewlett-Packard"],
+        "answer": "IBM" 
     }, 
     {
         "difficulty": "Hard",
