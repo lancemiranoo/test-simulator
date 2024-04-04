@@ -15,7 +15,7 @@ class TestSimulator(tk.Frame):
         self.root.title("TestGenius: Your Test Simulator")
         self.root.geometry("600x850")
         self.root.configure(bg="white")
-        # self.root.resizable(False, False)
+        self.root.resizable(True, True)
         self.question_db = question_database
         self.category_var = tk.StringVar()
         self.difficulty_var = tk.StringVar()
@@ -34,40 +34,51 @@ class TestSimulator(tk.Frame):
         self.welcome_label.pack()
         self.authors_label = tk.Label(root, text="by Joash Daligcon, Aron Limos, and Lance Mirano\n", font=("Helvetica 10"), bg="white", fg="#838383")
         self.authors_label.pack()
-        # Dropdown for selecting category
-        font_cat_diff_numq = "Helvetica 12 bold"
-        self.sel_categ_label = tk.Label(root, text="\nSelect a category:", font=(font_cat_diff_numq), bg="white", fg="#4285F4")
-        self.sel_categ_label.pack()
-        self.sel_categ_dropdown = ttk.Combobox(root, textvariable=self.category_var, state="readonly", font=("Helvetica 20"), width=10)
-        self.sel_categ_dropdown["values"] = ("Culture", "Geography", "History", "Technology")
-        self.sel_categ_dropdown.current(0)
-        self.sel_categ_dropdown.pack()
-        # Dropdown for selecting difficulty
-        self.sel_diff_label = tk.Label(root, text="\nSelect a difficulty:", font=(font_cat_diff_numq), bg="white", fg="#DB4437")
-        self.sel_diff_label.pack()
-        self.sel_diff_dropdown = ttk.Combobox(root, textvariable=self.difficulty_var, state="readonly", font=("Helvetica 20"), width=10)
-        self.sel_diff_dropdown["values"] = ("Easy", "Medium", "Hard")
-        self.sel_diff_dropdown.current(0)
-        self.sel_diff_dropdown.pack()
-        # Dropdown for selecting number of questions
-        self.num_questions_label = tk.Label(root, text="\nSelect number of questions:", font=(font_cat_diff_numq), bg="white", fg="#F4B400")
-        self.num_questions_label.pack()
-        self.num_questions_dropdown = ttk.Combobox(root, textvariable=self.num_questions_var, state="readonly", font=("Helvetica 20"), width=10)
-        self.num_questions_dropdown["values"] = ("5", "10", "15", "20")
-        self.num_questions_dropdown.current(0)
-        self.num_questions_dropdown.pack()
-        # Initialize Start button
+        # Method for selecting category
+        self.sel_category()
+        # Method for selecting difficulty
+        self.sel_difficulty()
+        # Method for selecting number of questions
+        self.sel_num_qstn()
+        # Initialize start button
         self.start_button = ttk.Button(root, text="Start Test", command=self.start_test)
         self.start_button.pack(padx=0, pady=25)
         self.start_button.style = ttk.Style()
         self.start_button.style.configure("TButton", font=("Helvetica", 14), background="white")
-        # Questions, choices, and buttons
+        # Questions, choices and submit button (Initialize to nothing)
         self.q_number_label = tk.Label(root, text="", font=("Helvetica 24 bold"), bg="white")
         self.q_number_label.pack()
         self.question_label = tk.Label(root, text="", wraplength=550, font=("Helvetica 20"), bg="white")
         self.question_label.pack(padx=0, pady=5)
         self.choice_buttons = []
         self.submit_button = ttk.Button(root, text="Submit Answer", command=self.submit_answer)
+
+    def sel_category(self):
+        # Dropdown for selecting category
+        self.sel_categ_label = tk.Label(self.root, text="\nSelect a category:", font="Helvetica 12 bold", bg="white", fg="#4285F4")
+        self.sel_categ_label.pack()
+        self.sel_categ_dropdown = ttk.Combobox(self.root, textvariable=self.category_var, state="readonly", font=("Helvetica 20"), width=10)
+        self.sel_categ_dropdown["values"] = ("Culture", "Geography", "History", "Technology")
+        self.sel_categ_dropdown.current(0)
+        self.sel_categ_dropdown.pack()
+
+    def sel_difficulty(self):
+        # Dropdown for selecting difficulty
+        self.sel_diff_label = tk.Label(self.root, text="\nSelect a difficulty:", font="Helvetica 12 bold", bg="white", fg="#DB4437")
+        self.sel_diff_label.pack()
+        self.sel_diff_dropdown = ttk.Combobox(self.root, textvariable=self.difficulty_var, state="readonly", font=("Helvetica 20"), width=10)
+        self.sel_diff_dropdown["values"] = ("Easy", "Medium", "Hard")
+        self.sel_diff_dropdown.current(0)
+        self.sel_diff_dropdown.pack()
+
+    def sel_num_qstn(self):
+        # Dropdown for selecting number of questions
+        self.num_questions_label = tk.Label(self.root, text="\nSelect number of questions:", font="Helvetica 12 bold", bg="white", fg="#F4B400")
+        self.num_questions_label.pack()
+        self.num_questions_dropdown = ttk.Combobox(self.root, textvariable=self.num_questions_var, state="readonly", font=("Helvetica 20"), width=10)
+        self.num_questions_dropdown["values"] = ("5", "10", "15", "20")
+        self.num_questions_dropdown.current(0)
+        self.num_questions_dropdown.pack()
 
     def hide_welcome_screen(self):
         self.welcome_label.pack_forget()
@@ -87,6 +98,23 @@ class TestSimulator(tk.Frame):
         self.category = self.category_var.get()
         self.difficulty = self.difficulty_var.get()
         self.num_questions = int(self.num_questions_var.get())
+        # Prepare questions from category
+        self.prep_qstn_categ()
+        # Prepare questions according to difficulty
+        self.prep_questions()
+        # Update display (category logo, bg color) before showing question
+        img = Image.open(f"./images/logo_{self.fg_col}.png")
+        self.image = img.resize((250, 300))
+        self.python_image = ImageTk.PhotoImage(self.image)
+        self.tg_logo.config(image=self.python_image, bg=self.bg_hex)
+        self.root.configure(bg=self.bg_hex)
+        self.q_number_label.config(bg=self.bg_hex, fg=self.fg_col)
+        self.question_label.config(bg=self.bg_hex, fg=self.fg_col)
+        self.start_button.style.configure("TButton", background=self.bg_hex)
+        # Show questions
+        self.show_question()
+
+    def prep_qstn_categ(self):
         # Prepare questions from category
         match (self.category):
             case "Culture":
@@ -109,23 +137,14 @@ class TestSimulator(tk.Frame):
                 pass
         # Randomize questions
         random.shuffle(self.question_bank)
+
+    def prep_questions(self):
         # Prepare questions according to difficulty
         self.sel_questions = []
         for qb in self.question_bank:
             if qb["difficulty"] == self.difficulty:
                 self.sel_questions.append(qb)
-        # Update display (category logo, bg color)
-        img = Image.open(f"./images/logo_{self.fg_col}.png")
-        self.image = img.resize((250, 300))
-        self.python_image = ImageTk.PhotoImage(self.image)
-        self.tg_logo.config(image=self.python_image, bg=self.bg_hex)
-        self.root.configure(bg=self.bg_hex)
-        self.q_number_label.config(bg=self.bg_hex, fg=self.fg_col)
-        self.question_label.config(bg=self.bg_hex, fg=self.fg_col)
-        self.start_button.style.configure("TButton", background=self.bg_hex)
-        # Show questions
-        self.show_question()
-
+                
     def show_question(self):
         # Update question label to current question
         self.q_number_label.config(text=f"{self.category} ({self.difficulty})\nQuestion {self.current_question_idx + 1} of {self.num_questions}")
@@ -200,22 +219,41 @@ class TestSimulator(tk.Frame):
         score_string = f"{str(self.correct_ans)} out of {str(self.num_questions)}"
         self.score_count = tk.Label(self.root, text=score_string, font=("Helvetica 21 bold"), bg="white", fg="black")
         self.score_count.pack()
-        self.score_prcnt_label = tk.Label(self.root, text=f"{score_prcnt:0.2f}%", font=("Helvetica 24 bold"), bg="white", fg="black")
+        # Check grade description
+        if score_prcnt >= 95:
+            grade_desc = "Exceptional"
+            grade_colors = "#00B050"
+        elif score_prcnt >= 85:
+            grade_desc = "Excellent"
+            grade_colors = "#92D050"
+        elif score_prcnt >= 70:
+            grade_desc = "Good"
+            grade_colors = "#FFFF00"
+        elif score_prcnt >= 56:
+            grade_desc = "Satisfactory"
+            grade_colors = "#FFC000"
+        elif score_prcnt >= 50:
+            grade_desc = "Poor"
+            grade_colors = "#FF0000"
+        else:
+            grade_desc = "Fail"
+            grade_colors = "#C00000"
+        self.score_prcnt_label = tk.Label(self.root, text=f"{grade_desc}: {score_prcnt:0.2f}%", font=("Helvetica 24 bold"), bg="white", fg=grade_colors)
         self.score_prcnt_label.pack()
         # Create pie chart frame
         self.pie_frame = tk.Frame(self.root)
         self.pie_frame.pack()
-        # Prepare pie chart
+        # Prepare pie chart figure
         fig = Figure(figsize=(5, 3))   # Create figure object from matplotlib
         ax = fig.add_subplot(1, 1, 1)  # Add axes to the figure: nrows, ncols, index
-        # Prepare label
+        # Prepare pie chart label
         if score_prcnt == 100:
             ans_labels = [f"{score_prcnt:0.2f}%", ""]
         elif score_prcnt == 0:
             ans_labels = ["", f"{100-score_prcnt:0.2f}%"]
         else:
             ans_labels = [f"{score_prcnt:0.2f}%", f"{100-score_prcnt:0.2f}%"]
-        # Prepare colors and explode view
+        # Prepare pie chart colors and explode view
         ans_colors = ["#0F9D58", "#DB4437"]
         ans_explde = (0.1, 0)
         wedges, _= ax.pie([score_prcnt, 100 - score_prcnt], labels=ans_labels, colors=ans_colors, radius=1, explode=ans_explde, textprops=dict(color="white"),

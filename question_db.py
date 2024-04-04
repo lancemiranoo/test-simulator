@@ -32,9 +32,9 @@ qb_culture = [
     },
     {
         "difficulty": "Easy",
-        "question": "Who painted the Mona Lisa?",
-        "choices": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
-        "answer": "Leonardo da Vinci"
+        "question": "Which popular winter sport originated in Canada?",
+        "choices": ["Ice hockey", "Skiing", "Snowboarding", "Figure skating"],
+        "answer": "Ice hockey"
     },
     {
         "difficulty": "Easy",
@@ -429,7 +429,7 @@ qb_culture = [
     {
         "difficulty": "Medium",
         "question": "What is the traditional greeting in Russia?",
-        "choices": ["Namaste", "Sawasdee", "Konnichiwa", ""],
+        "choices": ["Namaste", "Sawasdee", "Konnichiwa", "Zdravstvuyte"],
         "answer": "Zdravstvuyte"
     },
     {
@@ -608,9 +608,9 @@ qb_culture = [
     }, 
     {
         "difficulty": "Hard",
-        "question": "Who wrote the play 'The Importance of Being Earnest'?",
-        "choices": ["Oscar Wilde", "Tennessee Williams", "Arthur Miller", "George Bernard Shaw"],
-        "answer": "Oscar Wilde"
+        "question": "Which famous Renaissance artist was primarily known for his anatomically accurate drawings, which greatly influenced the understanding of human anatomy during his time?",
+        "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+        "answer": "Leonardo da Vinci"
     }, 
     {
         "difficulty": "Hard",
@@ -663,8 +663,8 @@ qb_culture = [
     {
         "difficulty": "Hard",
         "question": "Which ancient civilization built the city of Persepolis, located in present-day Iran?",
-        "choices": ["Ancient Mesopotamia", "Ancient Persia (Achaemenid Empire)", "Ancient Greece", "Ancient Egypt"],
-        "answer": "Ancient Persia (Achaemenid Empire)"
+        "choices": ["Ancient Mesopotamia", "Achaemenid Empire", "Ancient Greece", "Ancient Egypt"],
+        "answer": "Achaemenid Empire"
     }, 
     {
         "difficulty": "Hard",
@@ -2031,8 +2031,8 @@ qb_history = [
     {
         "difficulty": "Hard",
         "question": "Who was the last monarch of the Kingdom of Hawaii before it was overthrown?",
-        "choices": ["Queen Liliʻuokalani", "King Kalākaua", "Queen Kaʻahumanu", "King Kamehameha III"],
-        "answer": "Queen Liliʻuokalani"
+        "choices": ["Queen Lili'uokalani", "King Kalākaua", "Queen Ka'ahumanu", "King Kamehameha III"],
+        "answer": "Queen Lili'uokalani"
     },
     {
         "difficulty": "Hard",
@@ -2172,7 +2172,7 @@ qb_technology = [
     {
         "difficulty": "Easy",
         "question": "Which of the following is a type of computer memory?",
-        "choices": ["RAM", "ROM", "CPU", "PSU"],
+        "choices": ["RAM", "Mouse", "CPU", "PSU"],
         "answer": "RAM"
     },
     {
@@ -2220,7 +2220,7 @@ qb_technology = [
     {
         "difficulty": "Easy",
         "question": "Which of the following is a type of computer port?",
-        "choices": ["USB", "VGA", "DVD", "HDMI"],
+        "choices": ["USB", "Blu-ray", "DVD", "Floppy disk"],
         "answer": "USB"
     }, 
     {
@@ -2299,7 +2299,7 @@ qb_technology = [
         "difficulty": "Easy",
         "question": "What does VPN stand for?",
         "choices": ["Virtual Private Network", "Very Private Network", "Verified Private Network", "Virtual Public Network"],
-        "answer": ""
+        "answer": "Virtual Private Network"
     },
     {
         "difficulty": "Easy",
