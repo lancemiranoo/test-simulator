@@ -2251,7 +2251,7 @@ qb_technology = [
         "difficulty": "Easy",
         "question": "Which of the following is used to protect a computer from malware?",
         "choices": ["Firewall", "Flashlight", "Fingerprint", "Firework"],
-        "answer": "Firework"
+        "answer": "Firewall"
     }, 
     {
         "difficulty": "Easy",
@@ -2346,7 +2346,7 @@ qb_technology = [
     {
         "difficulty": "Easy",
         "question": "What is the purpose of a spreadsheet software?",
-        "choices": ["To create presentations", "To manage databases", "To perform calculations", "To edit images"],
+        "choices": ["To create presentations", "To manage emails", "To perform calculations", "To edit images"],
         "answer": "To perform calculations"
     },
     {
@@ -2448,14 +2448,14 @@ qb_technology = [
     {
         "difficulty": "Medium",
         "question": "What is the purpose of a QR code?",
-        "choices": ["Storing text messages", "Encoding website URLs", "Transmitting wireless signals", "Scanning barcodes"],
+        "choices": ["Storing images", "Encoding website URLs", "Transmitting wireless signals", "Scanning barcodes"],
         "answer": "Encoding website URLs"
     },
     {
         "difficulty": "Medium",
-        "question": "What programming language is commonly used for developing Android applications?",
+        "question": "What programming language is commonly used for developing Apple applications?",
         "choices": ["Java", "Python", "C#", "Swift"],
-        "answer": "Java"
+        "answer": "Swift"
     },
     {
         "difficulty": "Medium",
@@ -2496,7 +2496,7 @@ qb_technology = [
     {
         "difficulty": "Medium",
         "question": "Which of the following is a characteristic of IPv6?",
-        "choices": ["32-bit address space", "More efficient routing", "Limited device support", "Less secure encryption"],
+        "choices": ["8-bit address space", "More efficient routing", "Limited device support", "Less secure encryption"],
         "answer": "More efficient routing"
     },
     {
@@ -2556,14 +2556,14 @@ qb_technology = [
     {
         "difficulty": "Medium",
         "question": "Which of the following is NOT a component of a CPU?",
-        "choices": ["ALU", "RAM", "Control Unit", "Cache"],
-        "answer": "RAM"
+        "choices": ["ALU", "LAN", "Control Unit", "Memory Unit"],
+        "answer": "LAN"
     },
     {
         "difficulty": "Medium",
         "question": "What does WPA stand for in wireless security?",
-        "choices": ["Wireless Protected Access", "Wi-Fi Protection Algorithm", "Wired Privacy Association", "Wireless Protocol Agreement"],
-        "answer": "Wireless Protected Access"
+        "choices": ["Wi-Fi Protected Access", "Wi-Fi Protection Algorithm", "Wired Privacy Association", "Wireless Protocol Agreement"],
+        "answer": "Wi-Fi Protected Access"
     },
     {
         "difficulty": "Medium",
@@ -2592,7 +2592,7 @@ qb_technology = [
     {
         "difficulty": "Medium",
         "question": "Which of the following programming languages is commonly used for data analysis and statistical computing?",
-        "choices": ["Python", "Java", "R", "C++"],
+        "choices": ["Swift", "Java", "R", "C/C++"],
         "answer": "R"
     },
     {
@@ -2628,7 +2628,7 @@ qb_technology = [
     {
         "difficulty": "Medium",
         "question": "What was the name of the first widely-used web search engine?",
-        "choices": ["Google", "Yahoo", "AltaVista", "Bing"],
+        "choices": ["Google", "DuckDuckGo", "AltaVista", "Bing"],
         "answer": "AltaVista"
     },
     {
@@ -2658,8 +2658,8 @@ qb_technology = [
     {
         "difficulty": "Hard",
         "question": "What is the maximum data transfer rate of USB 3.2 Gen 2x2?",
-        "choices": ["5 Gbps", "10 Gbps", "20 Gbps", "40 Gbps"],
-        "answer": "40 Gbps"
+        "choices": ["5 Gbps", "10 Gbps", "20 Gbps", "1 Gbps"],
+        "answer": "20 Gbps"
     },
     {
         "difficulty": "Hard",
@@ -2771,7 +2771,7 @@ qb_technology = [
     },
     {
         "difficulty": "Hard",
-        "question": "Which of the following programming languages is often used for data science and machine learning?",
+        "question": "Which of the following programming languages is often used for machine learning?",
         "choices": ["Python", "Java", "C#", "Ruby"],
         "answer": "Python"
     },
