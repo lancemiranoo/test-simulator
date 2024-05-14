@@ -10,10 +10,8 @@ The purpose of this project is to revolutionize the way students prepare for exa
 
 ## Contributions
 
-- Source code (by Joash Daligcon) •
+- Source code (by Joash Daligcon)
 - Question Bank (by Lance Mirano)
-- Presentation Material (by Aron Limos) •
-- Technical Documentation •
+- Presentation Material (by Aron Limos)
 - Flowchart (by Joash Daligcon)
 - Pseudocode (by Joash Daligcon)
-- User Manual •
