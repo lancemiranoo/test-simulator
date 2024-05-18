@@ -4,14 +4,14 @@ The purpose of this project is to revolutionize the way students prepare for exa
 
 ## Authors
 
-- Joash Daligcon
-- Aron Limos
-- Lance Mirano
+- zhoda-lii
+- AronLimos
+- kianaaxd
 
 ## Contributions
 
-- Source code (by Joash Daligcon)
-- Question Bank (by Lance Mirano)
-- Presentation Material (by Aron Limos)
-- Flowchart (by Joash Daligcon)
-- Pseudocode (by Joash Daligcon)
+- Source code (by zhoda-lii)
+- Question Bank (by kianaaxd)
+- Presentation Material (by AronLimos)
+- Flowchart (by zhoda-lii)
+- Pseudocode (by zhoda-lii)
