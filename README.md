@@ -11,7 +11,7 @@ The purpose of this project is to revolutionize the way students prepare for exa
 ## Contributions
 
 - Source code (by zhoda-lii)
-- Question Bank (by kianaaxd)
+- Question Bank (by lancemiranoo)
 - Presentation Material (by AronLimos)
 - Flowchart (by zhoda-lii)
 - Pseudocode (by zhoda-lii)
